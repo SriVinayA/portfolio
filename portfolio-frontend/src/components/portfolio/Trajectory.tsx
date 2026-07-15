@@ -2,7 +2,7 @@ import { experience } from "@/lib/profile";
 
 export function Trajectory() {
   return (
-    <section id="experience" className="bg-zinc-100/60 py-24 border-y border-zinc-200/60">
+    <section id="experience" className="bg-zinc-100/60 dark:bg-white/5 py-24 border-y border-zinc-200/60 dark:border-white/10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-baseline justify-between mb-12">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
@@ -27,7 +27,7 @@ export function Trajectory() {
                 <span className="text-zinc-300">·</span>
                 <span className="text-xs text-zinc-500">{job.location}</span>
               </div>
-              <div className="p-6 bg-white rounded-2xl ring-1 ring-black/5 h-[340px] flex flex-col">
+              <div className="p-6 bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 h-[340px] flex flex-col">
                 <h3 className="font-serif text-2xl font-medium mb-1 text-page-fg">{job.company}</h3>
                 <p className="text-sm text-zinc-500 mb-4">{job.role}</p>
                 <ul className="text-sm text-zinc-600 leading-relaxed space-y-2 flex-1 overflow-hidden">
@@ -38,11 +38,11 @@ export function Trajectory() {
                     </li>
                   ))}
                 </ul>
-                <div className="flex flex-wrap gap-1.5 mt-4 pt-4 border-t border-zinc-100">
+                <div className="flex flex-wrap gap-1.5 mt-4 pt-4 border-t border-zinc-100 dark:border-white/10">
                   {job.stack.slice(0, 5).map((s) => (
                     <span
                       key={s}
-                      className="px-2 py-0.5 bg-zinc-50 text-zinc-600 text-[11px] rounded ring-1 ring-black/5"
+                      className="px-2 py-0.5 bg-zinc-50 dark:bg-zinc-800/80 text-zinc-600 dark:text-zinc-400 text-[11px] rounded ring-1 ring-black/5 dark:ring-white/10"
                     >
                       {s}
                     </span>

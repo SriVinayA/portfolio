@@ -61,7 +61,7 @@ export function ChatCommandPalette({
       onClick={onClose}
     >
       <div
-        className="w-full max-w-2xl bg-white rounded-2xl shadow-2xl ring-1 ring-black/10 overflow-hidden flex flex-col max-h-[80vh] animate-in zoom-in-95 slide-in-from-top-4 duration-200"
+        className="w-full max-w-2xl bg-white dark:bg-card rounded-2xl shadow-2xl ring-1 ring-black/10 dark:ring-white/10 overflow-hidden flex flex-col max-h-[80vh] animate-in zoom-in-95 slide-in-from-top-4 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
 
@@ -79,12 +79,12 @@ export function ChatCommandPalette({
                 <button
                   key={s}
                   onClick={() => submit(s)}
-                  className="w-full flex items-center gap-3 px-3 py-2 hover:bg-zinc-50 rounded-lg group text-left transition-colors"
+                  className="w-full flex items-center gap-3 px-3 py-2 hover:bg-zinc-50 dark:hover:bg-white/5 rounded-lg group text-left transition-colors"
                 >
-                  <div className="size-5 flex items-center justify-center rounded-md bg-zinc-100 group-hover:bg-accent/10 transition-colors">
+                  <div className="size-5 flex items-center justify-center rounded-md bg-zinc-100 dark:bg-white/10 group-hover:bg-accent/10 transition-colors">
                     <div className="size-1.5 rounded-full bg-zinc-400 group-hover:bg-accent" />
                   </div>
-                  <span className="text-sm font-medium text-zinc-700 group-hover:text-page-fg">
+                  <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300 group-hover:text-page-fg">
                     {s}
                   </span>
                   <CornerDownLeft className="size-3.5 text-zinc-300 ml-auto opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -121,7 +121,7 @@ export function ChatCommandPalette({
                         <div className="text-[10px] font-semibold uppercase tracking-widest text-zinc-400 mb-1">
                           Assistant
                         </div>
-                        <div className="text-sm leading-relaxed text-zinc-800 prose prose-sm max-w-none prose-p:my-2 prose-p:leading-relaxed prose-strong:text-page-fg prose-code:text-accent prose-code:bg-zinc-50 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:before:content-none prose-code:after:content-none prose-a:text-accent prose-ul:my-2 prose-li:my-0.5">
+                        <div className="text-sm leading-relaxed text-zinc-800 dark:text-zinc-300 prose prose-sm max-w-none prose-p:my-2 prose-p:leading-relaxed prose-strong:text-page-fg prose-code:text-accent prose-code:bg-zinc-50 dark:prose-code:bg-white/10 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:before:content-none prose-code:after:content-none prose-a:text-accent prose-ul:my-2 prose-li:my-0.5">
                           {m.content ? (
                             <ReactMarkdown>{m.content}</ReactMarkdown>
                           ) : (
@@ -159,7 +159,7 @@ export function ChatCommandPalette({
             e.preventDefault();
             submit();
           }}
-          className="px-4 py-3 border-t border-zinc-100 flex items-center gap-3 bg-white"
+          className="px-4 py-3 border-t border-zinc-100 dark:border-white/10 flex items-center gap-3 bg-white dark:bg-card"
         >
           <Search className="size-4 shrink-0 text-zinc-400" strokeWidth={2.25} />
           <input
@@ -175,7 +175,7 @@ export function ChatCommandPalette({
             <button
               type="button"
               onClick={stop}
-              className="inline-flex items-center gap-1.5 px-2 py-1 text-[11px] font-medium text-zinc-600 bg-zinc-100 rounded hover:bg-zinc-200 transition-colors"
+              className="inline-flex items-center gap-1.5 px-2 py-1 text-[11px] font-medium text-zinc-600 dark:text-zinc-400 bg-zinc-100 dark:bg-white/10 rounded hover:bg-zinc-200 dark:hover:bg-white/20 transition-colors"
             >
               <Square className="size-3 fill-current" />
               Stop

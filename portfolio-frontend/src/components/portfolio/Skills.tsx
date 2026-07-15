@@ -26,7 +26,7 @@ export function Skills() {
                 {group.items.map((item) => (
                   <span
                     key={item}
-                    className="px-3 py-1.5 bg-white text-zinc-700 text-sm rounded-md ring-1 ring-black/5 hover:ring-accent/40 hover:text-page-fg transition-all"
+                    className="px-3 py-1.5 bg-white dark:bg-card text-zinc-700 dark:text-zinc-300 text-sm rounded-md ring-1 ring-black/5 dark:ring-white/10 hover:ring-accent/40 dark:hover:ring-accent/40 hover:text-page-fg dark:hover:text-page-fg transition-all"
                   >
                     {item}
                   </span>
