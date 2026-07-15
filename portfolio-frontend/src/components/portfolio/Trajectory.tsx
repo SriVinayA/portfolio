@@ -16,7 +16,7 @@ export function Trajectory() {
           {experience.map((job, i) => (
             <article
               key={job.company}
-              className={`shrink-0 w-80 md:w-96 snap-start ${i === 0 ? "" : "opacity-70 hover:opacity-100 transition-opacity"}`}
+              className={`scroll-reveal shrink-0 w-80 md:w-96 snap-start ${i === 0 ? "" : "opacity-70 hover:opacity-100 transition-opacity"}`}
             >
               <div className="flex items-center gap-2 mb-3">
                 <span

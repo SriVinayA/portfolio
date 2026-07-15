@@ -17,7 +17,7 @@ export function Projects() {
           {projects.map((p) => (
             <article
               key={p.name}
-              className="group bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 overflow-hidden flex flex-col"
+              className="scroll-reveal group bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 overflow-hidden flex flex-col"
             >
               <div className="aspect-[16/10] overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b border-zinc-100 dark:border-white/10">
                 <img
