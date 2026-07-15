@@ -124,6 +124,11 @@
     background-color: var(--accent);
     color: var(--accent-foreground);
   }
+  .bg-accent::selection,
+  .bg-accent *::selection {
+    background-color: var(--accent-foreground);
+    color: var(--accent);
+  }
 }
 
 @utility no-scrollbar {
