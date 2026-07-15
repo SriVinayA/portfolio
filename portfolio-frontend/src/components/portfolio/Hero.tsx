@@ -20,7 +20,7 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
         <p className="font-serif text-lg sm:text-xl text-zinc-600 leading-relaxed text-pretty mb-10">
           <span className="text-page-fg font-medium not-italic">{profile.name}</span> is a{" "}
           {profile.title} with 7+ years of experience architecting enterprise Java systems, plus
-          deep work in <em>Rust</em> systems programming and LLM orchestration.
+          deep work in <em>Python</em> and <em>C++</em> systems programming, alongside LLM orchestration.
         </p>
         <div className="flex flex-wrap items-center gap-3">
           <button

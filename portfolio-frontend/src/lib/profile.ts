@@ -4,14 +4,14 @@ export const profile = {
   tagline:
     "Engineering systems with the precision of a compiled binary and the warmth of a well-written README.",
   summary:
-    "Vinay Appari is a Full Stack Engineer with 7+ years of experience designing enterprise Java systems, plus deep work in Rust systems programming and AI/LLM orchestration.",
+    "Vinay Appari is a Full Stack Engineer with 7+ years of experience designing enterprise Java systems, plus deep work in Python, C++ systems programming, and AI/LLM orchestration.",
   location: "United States",
   email: "vinay.appari@example.com",
   github: "https://github.com/SriVinayA",
   linkedin: "https://linkedin.com/in/vinayappari",
   website: "https://vinayappari.dev",
   quote:
-    "Building systems that are fast, resilient, and intelligent — from enterprise Java microservices to Rust-powered tools and AI-driven applications.",
+    "Building systems that are fast, resilient, and intelligent — from enterprise Java microservices and Python AI pipelines, to C++ systems and modern web applications.",
 };
 
 export const experience = [
@@ -85,7 +85,7 @@ export const experience = [
 export const skills: { category: string; items: string[] }[] = [
   {
     category: "Languages",
-    items: ["Java", "Rust", "TypeScript", "JavaScript", "Python", "SQL", "PL/SQL", "C", "C++"],
+    items: ["Java", "Python", "C++", "SQL", "PL/SQL", "Rust", "C", "TypeScript", "JavaScript"],
   },
   {
     category: "Backend",
@@ -190,7 +190,7 @@ export const strengths = [
   "Kafka-based distributed messaging",
   "Database design and optimization",
   "AI/LLM integration and prompt engineering",
-  "Systems programming with Rust",
+  "Systems programming (C++, Rust)",
   "Agile delivery and DevOps practices",
 ];
 

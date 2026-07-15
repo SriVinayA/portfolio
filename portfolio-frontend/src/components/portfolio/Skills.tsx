@@ -12,7 +12,7 @@ export function Skills() {
             A taxonomy of technical craft developed over seven years.
           </h3>
           <p className="text-zinc-500 max-w-[48ch] text-pretty font-serif text-lg leading-relaxed">
-            The convergence of enterprise Java stability with the memory safety of Rust and the
+            The convergence of scalable enterprise Java, intelligent Python pipelines, and high-performance C++ systems.
             cognitive capabilities of modern LLMs.
           </p>
         </div>

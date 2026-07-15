@@ -5,9 +5,9 @@ import { useStreamingChat } from "@/hooks/useStreamingChat";
 
 const SUGGESTIONS = [
   "What is Vinay's experience with Apache Kafka?",
-  "Tell me about BoltFetch, his Rust project.",
+  "Tell me about his Java and Python backend experience.",
   "Summarize his AI/LLM work — Spring AI, LangChain, GPT-4.1.",
-  "Compare his Java and Rust experience.",
+  "Compare his Java, Python, and C++ experience.",
   "What has he shipped at Toyota and Qualcomm?",
 ];
 

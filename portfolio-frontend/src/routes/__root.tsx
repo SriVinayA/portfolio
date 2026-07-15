@@ -69,7 +69,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 const SITE_TITLE = "Vinay Appari — Full Stack Java Developer";
 const SITE_DESCRIPTION =
-  "Portfolio of Vinay Appari — Full Stack Java Developer with 7+ years building enterprise Spring Boot systems, plus Rust and AI/LLM work. Ask the AI anything about my background.";
+  "Portfolio of Vinay Appari — Full Stack Java Developer with 7+ years building enterprise Spring Boot systems, plus Python, C++ and AI/LLM work. Ask the AI anything about my background.";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
