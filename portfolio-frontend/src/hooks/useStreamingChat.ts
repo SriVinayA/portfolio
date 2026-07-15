@@ -10,7 +10,7 @@ export type ChatMessage = {
 // Defaults to http://localhost:8080 for local development.
 // To point at a deployed backend, set VITE_CHAT_API_URL at build time.
 const CHAT_API_BASE =
-  (import.meta.env.VITE_CHAT_API_URL as string | undefined) ?? "http://localhost:8080";
+  ((import.meta.env.VITE_CHAT_API_URL as string | undefined) ?? "http://localhost:8080").replace(/\/$/, "");
 
 const uid = () => Math.random().toString(36).slice(2, 10);
 
