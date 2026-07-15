@@ -1,11 +1,9 @@
 import { profile } from "@/lib/profile";
 import { ArrowUpRight } from "lucide-react";
-import { Universe } from "./Universe";
 
 export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
   return (
-    <section id="top" className="max-w-7xl mx-auto px-6 pt-32 pb-24 md:pb-32 grid md:grid-cols-[1.2fr_1fr] gap-8 items-center">
-      <div>
+    <section id="top" className="max-w-7xl mx-auto px-6 pt-32 pb-24 md:pb-32">
       <div className="flex items-center gap-2 mb-8">
         <span className="size-2 rounded-full bg-accent shadow-[0_0_10px_theme(colors.emerald.500/40%)]" />
         <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
@@ -54,11 +52,6 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
             <ArrowUpRight className="size-4" strokeWidth={2.25} />
           </a>
         </div>
-        </div>
-      </div>
-      
-      <div className="hidden md:block">
-        <Universe />
       </div>
     </section>
   );
