@@ -157,7 +157,7 @@ export const projects = [
     tagline: "This site — with a Spring AI + Gemini chatbot.",
     description:
       "A modern, interactive personal portfolio built with React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router/Start, and Vite. The AI chatbot is powered by a Spring Boot backend using Spring AI integrated with Google's Gemini 3.1 API — try Cmd+K to ask it anything about my background.",
-    stack: ["React", "TanStack", "Vite", "Tailwind CSS", "Spring Boot", "Spring AI", "Gemini 3.1"],
+    stack: ["React", "TypeScript", "Tailwind", "shadcn/ui", "TanStack Router/Start", "Vite", "Spring Boot", "Spring AI", "Google Gemini API"],
     link: "https://github.com/SriVinayA/portfolio",
     cover: portfolioCover,
   },
