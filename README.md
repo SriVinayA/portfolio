@@ -53,9 +53,13 @@ npm run dev
 This repository is configured for automated, free-tier deployments.
 
 ### Backend (Render)
-A `render.yaml` blueprint and a `Dockerfile` are included in the root. 
-1. Connect this repo to Render as a Blueprint.
-2. Add `GEMINI_API_KEY` to the environment variables in the Render dashboard.
+A `Dockerfile` is included in the root of the backend to automate the Java 21 build.
+1. Create a new **Web Service** in Render (do *not* use Blueprint).
+2. Connect this repository.
+3. Set the Root Directory to `portfolio-backend`.
+4. Render will automatically detect the Dockerfile.
+5. In the setup wizard, under Environment Variables, add `GEMINI_API_KEY` and your actual key.
+6. Click Deploy.
 
 ### Frontend (Vercel)
 1. Import the repository into Vercel.
