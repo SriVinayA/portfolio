@@ -12,7 +12,10 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
       </div>
 
       <div className="max-w-[36ch]">
-        <h1 className="font-serif text-5xl sm:text-7xl leading-[0.98] text-balance mb-8 font-medium italic text-page-fg">
+        {/* <h1 className="font-serif text-5xl sm:text-7xl leading-[0.98] text-balance mb-8 font-medium italic text-page-fg">
+          {profile.tagline}
+        </h1> */}
+        <h1 className="font-serif text-4xl sm:text-5xl leading-[0.98] text-balance mb-8 font-medium italic text-page-fg">
           {profile.tagline}
         </h1>
       </div>

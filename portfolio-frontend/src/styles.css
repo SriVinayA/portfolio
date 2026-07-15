@@ -121,8 +121,8 @@
     text-rendering: optimizeLegibility;
   }
   ::selection {
-    background-color: color-mix(in oklab, var(--accent) 20%, transparent);
-    color: var(--accent);
+    background-color: var(--accent);
+    color: var(--accent-foreground);
   }
 }
 
