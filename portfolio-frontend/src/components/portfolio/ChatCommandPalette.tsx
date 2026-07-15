@@ -64,59 +64,7 @@ export function ChatCommandPalette({
         className="w-full max-w-2xl bg-white rounded-2xl shadow-2xl ring-1 ring-black/10 overflow-hidden flex flex-col max-h-[80vh] animate-in zoom-in-95 slide-in-from-top-4 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Input row */}
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            submit();
-          }}
-          className="px-4 py-3 border-b border-zinc-100 flex items-center gap-3"
-        >
-          <Search className="size-4 shrink-0 text-zinc-400" strokeWidth={2.25} />
-          <input
-            ref={inputRef}
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            type="text"
-            placeholder="Ask about Vinay's experience, projects, or stack…"
-            className="flex-1 bg-transparent border-none outline-none text-base placeholder:text-zinc-400 py-1 text-page-fg"
-            autoComplete="off"
-          />
-          {isStreaming ? (
-            <button
-              type="button"
-              onClick={stop}
-              className="inline-flex items-center gap-1.5 px-2 py-1 text-[11px] font-medium text-zinc-600 bg-zinc-100 rounded hover:bg-zinc-200 transition-colors"
-            >
-              <Square className="size-3 fill-current" />
-              Stop
-            </button>
-          ) : hasThread ? (
-            <button
-              type="button"
-              onClick={() => {
-                reset();
-                setInput("");
-                inputRef.current?.focus();
-              }}
-              className="text-[11px] font-medium text-zinc-500 hover:text-page-fg transition-colors"
-            >
-              Clear
-            </button>
-          ) : (
-            <span className="text-[10px] font-semibold text-zinc-400 border border-zinc-200 px-1.5 py-0.5 rounded">
-              ESC
-            </span>
-          )}
-          <button
-            type="button"
-            onClick={onClose}
-            className="text-zinc-400 hover:text-page-fg transition-colors sm:hidden"
-            aria-label="Close"
-          >
-            <X className="size-4" />
-          </button>
-        </form>
+
 
         {/* Content */}
         <div ref={feedRef} className="flex-1 overflow-y-auto">
@@ -204,6 +152,60 @@ export function ChatCommandPalette({
             </div>
           )}
         </div>
+
+        {/* Input row */}
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            submit();
+          }}
+          className="px-4 py-3 border-t border-zinc-100 flex items-center gap-3 bg-white"
+        >
+          <Search className="size-4 shrink-0 text-zinc-400" strokeWidth={2.25} />
+          <input
+            ref={inputRef}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            type="text"
+            placeholder="Ask about Vinay's experience, projects, or stack…"
+            className="flex-1 bg-transparent border-none outline-none text-base placeholder:text-zinc-400 py-1 text-page-fg"
+            autoComplete="off"
+          />
+          {isStreaming ? (
+            <button
+              type="button"
+              onClick={stop}
+              className="inline-flex items-center gap-1.5 px-2 py-1 text-[11px] font-medium text-zinc-600 bg-zinc-100 rounded hover:bg-zinc-200 transition-colors"
+            >
+              <Square className="size-3 fill-current" />
+              Stop
+            </button>
+          ) : hasThread ? (
+            <button
+              type="button"
+              onClick={() => {
+                reset();
+                setInput("");
+                inputRef.current?.focus();
+              }}
+              className="text-[11px] font-medium text-zinc-500 hover:text-page-fg transition-colors"
+            >
+              Clear
+            </button>
+          ) : (
+            <span className="text-[10px] font-semibold text-zinc-400 border border-zinc-200 px-1.5 py-0.5 rounded">
+              ESC
+            </span>
+          )}
+          <button
+            type="button"
+            onClick={onClose}
+            className="text-zinc-400 hover:text-page-fg transition-colors sm:hidden"
+            aria-label="Close"
+          >
+            <X className="size-4" />
+          </button>
+        </form>
       </div>
     </div>
   );
