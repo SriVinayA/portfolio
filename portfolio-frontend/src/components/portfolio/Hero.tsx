@@ -7,7 +7,7 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
       <div className="flex items-center gap-2 mb-8">
         <span className="size-2 rounded-full bg-accent shadow-[0_0_10px_theme(colors.emerald.500/40%)]" />
         <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-          Available for senior engineering roles
+          Available for Software engineering roles
         </span>
       </div>
 

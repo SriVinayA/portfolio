@@ -1,6 +1,6 @@
 # Vinay Appari
 
-> Full Stack Java Developer | AI Enthusiast | Rustacean
+> Backend Engineer (Java, Python, C++) | Full Stack Developer | AI Enthusiast
 
 📧 Email: vinay.appari@example.com  
 🔗 GitHub: [github.com/SriVinayA](https://github.com/SriVinayA)  
@@ -18,7 +18,7 @@
 * Skilled in **MongoDB, Oracle, MySQL, SQL Server, PostgreSQL, Cassandra, and DB2**.
 * Experience working in **Agile/Scrum**, Test-Driven Development (TDD), and the full Software Development Life Cycle (SDLC).
 * Exposure to modern AI technologies including **Spring AI, LangChain, LangGraph, LLM Engineering, and Cursor**.
-* Passionate about systems programming with **Rust**, building high-performance tools like **BoltFetch**.
+* Extensive experience in scalable backend architecture using **Java** and **Python**, alongside systems programming in **C++** and **Rust**.
 
 ---
 
@@ -26,7 +26,7 @@
 
 | Category | Technologies |
 |----------|-------------|
-| **Programming Languages** | Java, SQL, PL/SQL, Python, Rust, C, C++, TypeScript, JavaScript |
+| **Programming Languages** | Java, Python, C++, SQL, PL/SQL, Rust, C, TypeScript, JavaScript |
 | **Backend Technologies** | Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Spring AI, Hibernate, JPA, Microservices, REST APIs, SOAP, JMS, JDBC, FastAPI |
 | **Frontend Technologies** | ReactJS, Redux, Angular (2–9), TypeScript, JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, jQuery, AJAX, shadcn/ui, Leptos |
 | **Cloud & DevOps** | AWS (EC2, S3, RDS, ELB, Lambda, API Gateway, CloudFormation, CloudWatch), Docker, Kubernetes, Jenkins, Maven, Gradle, Git, Bitbucket |
@@ -112,36 +112,30 @@
 
 ## Projects
 
-### 🚀 Portfolio Website
+### 🚀 Portfolio Website (This Web App)
 
 A modern, interactive personal portfolio built to showcase my skills, projects, and professional journey.
 
 **Tech Stack:**
-- **Frontend:** React with Vite, TypeScript, Tailwind CSS, shadcn/ui components
-- **Backend:** Spring Boot with Spring AI + Gemini API for an AI-powered chatbot
+- **Frontend:** Vanilla TypeScript, Vite, Custom CSS (Editorial Design)
+- **Backend:** Spring Boot, Spring WebFlux, Spring AI, Google Gemini 2.0 Flash API
 
 **Features:**
-- ⚡ Lightning-fast development with Vite
-- 🎨 Clean, responsive UI powered by Tailwind CSS and shadcn/ui
-- 🤖 AI Chatbot — Ask anything about my profile, experience, or projects. Powered by Spring AI integrated with Google's Gemini API.
-- 📱 Fully responsive design for all devices
+- ⚡ **Lightning-fast Architecture:** Built with Vite and Vanilla TS for zero-overhead performance.
+- 🎨 **Editorial Design System:** A highly polished, responsive typography-driven layout with custom CSS, a command-palette AI interface, and micro-animations.
+- 🤖 **Real-time AI Chatbot:** An intelligent assistant context-aware of my resume, featuring Server-Sent Events (SSE) streaming, built with Spring AI and Gemini 2.0 Flash.
 
 ---
 
 ### ⚡ BoltFetch
 
-> A blazing-fast, resilient download manager written in Rust.
-
-BoltFetch is a high-performance, multi-threaded download manager built entirely in Rust. It maximizes available bandwidth using concurrent multipart downloads while intelligently adapting to rate limits, temporary server failures, and network interruptions.
+A concurrent, resilient download manager written in Rust.
 
 **Key Features:**
-- 🚀 **High-Speed Multi-Threaded Downloads** — Dynamic multipart downloading with Tokio-powered concurrent workers
-- 🛡️ **Adaptive Download Orchestrator** — Auto-detects HTTP 429/503, reduces workers, applies exponential backoff
-- 💾 **Persistent Resume Support** — Pause, resume, and recover from crashes via `.boltfetch` state files
-- 📄 **Smart File Detection** — Auto-follows redirects, resolves filenames from `Content-Disposition`
-- 🖥️ **Dual Interfaces:**
-  - **CLI** — Lightweight, script-friendly with real-time stacked progress bars (Clap + Indicatif)
-  - **Desktop UI** — Native Tauri v2 + Leptos app with IDM-inspired segment progression bar and glassmorphic dark mode
+- 🚀 **Multi-Threaded Downloads** — Dynamic multipart downloading with Tokio
+- 🛡️ **Adaptive Orchestrator** — Auto-detects rate limits and applies exponential backoff
+- 💾 **Resume Support** — Pause and recover from crashes via state files
+- 🖥️ **Interfaces:** CLI (Clap + Indicatif) and Desktop UI (Tauri v2 + Leptos)
 
 **Tech Stack:** Rust, Tokio, Reqwest, Tauri v2, Leptos, WebAssembly, Clap, Indicatif
 
@@ -177,8 +171,8 @@ Master's Capstone Project — An AI-powered career platform featuring a Resume T
 * Docker, Kubernetes, and CI/CD implementation
 * Kafka-based distributed messaging
 * Database design and optimization
-* AI/LLM integration and prompt engineering
-* Systems programming with Rust
+* Systems programming (C++, Rust)
+* Python backend development and AI/LLM integration
 * Agile software delivery and DevOps practices
 
 ---
@@ -189,4 +183,4 @@ Master's Capstone Project — An AI-powered career platform featuring a Resume T
 
 ---
 
-> *"Building systems that are fast, resilient, and intelligent — from enterprise Java microservices to Rust-powered tools and AI-driven applications."*
+> *"Building systems that are fast, resilient, and intelligent — from enterprise Java microservices and Python AI pipelines, to C++ systems and modern web applications."*

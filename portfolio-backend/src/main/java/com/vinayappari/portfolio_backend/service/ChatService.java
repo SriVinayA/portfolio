@@ -38,6 +38,7 @@ public class ChatService {
         return this.chatClient.prompt()
                 .messages(springMessages)
                 .stream()
-                .content();
+                .content()
+                .delayElements(java.time.Duration.ofMillis(250));
     }
 }
