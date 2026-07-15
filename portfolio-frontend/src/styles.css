@@ -121,13 +121,12 @@
     text-rendering: optimizeLegibility;
   }
   ::selection {
-    background-color: var(--accent);
-    color: var(--accent-foreground);
+    background-color: color-mix(in oklab, var(--accent) 25%, transparent);
+    /* Leave color inherit so text maintains its original high-contrast color */
   }
   .bg-accent::selection,
   .bg-accent *::selection {
-    background-color: var(--accent-foreground);
-    color: var(--accent);
+    background-color: color-mix(in oklab, var(--accent-foreground) 25%, transparent);
   }
 }
 
