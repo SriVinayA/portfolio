@@ -47,12 +47,7 @@
 :nth-child(1 of :is(.body-container.galaxy .arm)) { --i: 0; }
 :nth-child(2 of :is(.body-container.galaxy .arm)) { --i: 1; }
 
-body {
-  height: 100dvh;
-  margin: 0;
-  background: var(--bg-color);
-  overflow: hidden;
-}
+
 
 .universe {
   height: 100%;
