@@ -143,7 +143,7 @@ export const skills: { category: string; items: string[] }[] = [
   },
   {
     category: "AI / LLM",
-    items: ["Spring AI", "LangChain", "LangGraph", "GPT-4.1", "DeepSeek", "Prompt Engineering"],
+    items: ["Spring AI", "LangChain", "LangGraph", "GPT-4.1", "Gemini 3.1", "Prompt Engineering"],
   },
 ];
 
@@ -154,11 +154,11 @@ import portfolioCover from "@/assets/portfolio-cover.jpg";
 export const projects = [
   {
     name: "Portfolio Backend",
-    tagline: "This site — with a Spring AI + DeepSeek chatbot.",
+    tagline: "This site — with a Spring AI + Gemini chatbot.",
     date: "2024",
     description:
-      "A modern, interactive personal portfolio built with React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router/Start, and Vite. The AI chatbot is powered by a Spring Boot backend using Spring AI integrated with DeepSeek — try Cmd+K to ask it anything about my background.",
-    stack: ["React", "TypeScript", "Tailwind", "shadcn/ui", "TanStack Router/Start", "Vite", "Spring Boot", "Spring AI", "DeepSeek"],
+      "A modern, interactive personal portfolio built with React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router/Start, and Vite. The AI chatbot is powered by a Spring Boot backend using Spring AI integrated with Google's Gemini 3.1 API — try Cmd+K to ask it anything about my background.",
+    stack: ["React", "TypeScript", "Tailwind", "shadcn/ui", "TanStack Router/Start", "Vite", "Spring Boot", "Spring AI", "Google Gemini API"],
     link: "https://github.com/SriVinayA/portfolio",
     cover: portfolioCover,
   },

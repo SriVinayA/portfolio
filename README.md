@@ -1,6 +1,6 @@
 # Vinay Appari — Personal Portfolio & AI Chatbot
 
-A modern, interactive personal portfolio built with React and Spring Boot. This isn't just a static site—it features a custom AI assistant powered by Spring AI and DeepSeek that has been specifically trained on my resume and professional background.
+A modern, interactive personal portfolio built with React and Spring Boot. This isn't just a static site—it features a custom AI assistant powered by Spring AI and Google's Gemini API that has been specifically trained on my resume and professional background.
 
 ## 🚀 Tech Stack
 
@@ -12,7 +12,7 @@ A modern, interactive personal portfolio built with React and Spring Boot. This 
 
 ### Backend (`/portfolio-backend`)
 *   **Framework:** Java 21, Spring Boot 3
-*   **AI Integration:** Spring AI, DeepSeek
+*   **AI Integration:** Spring AI, Google Gemini 3.1 Flash-Lite
 *   **Real-time Chat:** Server-Sent Events (SSE) for streaming responses
 *   **Build Tool:** Gradle
 *   **Deployment:** Render (via Docker)
@@ -24,14 +24,14 @@ A modern, interactive personal portfolio built with React and Spring Boot. This 
 ### Prerequisites
 *   Node.js v20+
 *   Java 21
-*   A DeepSeek API Key
+*   A Google Gemini API Key
 
 ### 1. Start the Backend
-The backend serves the AI chatbot. You must provide a DeepSeek API key.
+The backend serves the AI chatbot. You must provide a Gemini API key.
 
 ```bash
 cd portfolio-backend
-export DEEPSEEK_API_KEY="your_api_key_here"
+export GEMINI_API_KEY="your_api_key_here"
 ./gradlew bootRun
 ```
 *The backend will start on `http://localhost:8080`.*
@@ -58,7 +58,7 @@ A `Dockerfile` is included in the root of the backend to automate the Java 21 bu
 2. Connect this repository.
 3. Set the Root Directory to `portfolio-backend`.
 4. Render will automatically detect the Dockerfile.
-5. In the setup wizard, under Environment Variables, add `DEEPSEEK_API_KEY` and your actual key.
+5. In the setup wizard, under Environment Variables, add `GEMINI_API_KEY` and your actual key.
 6. Click Deploy.
 
 ### Frontend (Vercel)
