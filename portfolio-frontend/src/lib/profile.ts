@@ -167,7 +167,7 @@ export const projects = [
     description:
       "AI Resume Tailoring microservice: a pipeline that parses resume + JD into structured JSON, runs cosine-similarity gap analysis, uses GPT-4.1 with structured output for hallucination-free rewrites, then compiles to ATS-friendly PDF via a custom JSON→LaTeX pipeline with one-click Overleaf. Dockerized on AWS EC2 behind API Gateway + Cognito.",
     stack: ["Python", "FastAPI", "GPT-4.1", "LaTeX", "Docker", "AWS", "Cognito"],
-    link: "#",
+    link: "https://github.com/SriVinayA/Resume-Customizer",
     cover: talenttrekCover,
   },
   {
