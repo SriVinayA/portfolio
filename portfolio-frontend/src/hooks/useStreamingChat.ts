@@ -28,23 +28,29 @@ function extractDelta(buffer: string): { text: string; rest: string } {
   let text = "";
   for (const evt of parts) {
     const lines = evt.split("\n");
+    const dataLines: string[] = [];
     for (const line of lines) {
       if (line.startsWith("data:")) {
-        const payload = line.slice(5).replace(/^ /, "");
-        if (payload === "[DONE]") continue;
-        // Try JSON first; fall back to raw string.
-        try {
-          const parsed = JSON.parse(payload);
-          if (typeof parsed === "string") text += parsed;
-          else if (parsed && typeof parsed.content === "string") text += parsed.content;
-          else if (parsed && typeof parsed.delta === "string") text += parsed.delta;
-          else text += payload;
-        } catch {
-          text += payload;
-        }
-      } else if (line.trim() && !line.startsWith(":")) {
-        // Non-SSE line — append as-is.
-        text += line;
+        // The Spring Boot SSE encoder does not append the optional U+0020 space after 'data:'.
+        // Therefore, whatever comes immediately after 'data:' is the exact chunk.
+        const payload = line.slice(5);
+        dataLines.push(payload);
+      }
+    }
+
+    if (dataLines.length > 0) {
+      const eventData = dataLines.join("\n");
+      if (eventData === "[DONE]") continue;
+
+      // Try JSON first; fall back to raw string.
+      try {
+        const parsed = JSON.parse(eventData);
+        if (typeof parsed === "string") text += parsed;
+        else if (parsed && typeof parsed.content === "string") text += parsed.content;
+        else if (parsed && typeof parsed.delta === "string") text += parsed.delta;
+        else text += eventData;
+      } catch {
+        text += eventData;
       }
     }
   }
@@ -88,7 +94,10 @@ export function useStreamingChat() {
       const res = await fetch(`${CHAT_API_BASE}/api/chat/stream`, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "text/event-stream" },
-        body: JSON.stringify({ message: trimmed }),
+        body: JSON.stringify({ 
+          message: trimmed,
+          history: messages.map(m => ({ role: m.role, content: m.content }))
+        }),
         signal: controller.signal,
       });
 
@@ -147,7 +156,7 @@ export function useStreamingChat() {
     } finally {
       abortRef.current = null;
     }
-  }, []);
+  }, [messages]);
 
   return { messages, status, error, sendMessage, stop, reset };
 }

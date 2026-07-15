@@ -22,6 +22,6 @@ public class ChatController {
 
     @PostMapping(value = "/stream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<String> streamChat(@Valid @RequestBody ChatRequest request) {
-        return chatService.streamChat(request.message());
+        return chatService.streamChat(request.message(), request.history());
     }
 }
