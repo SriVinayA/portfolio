@@ -1,0 +1,72 @@
+name: Deploy portfolio-backend to Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'portfolio-backend/**'
+      - '.github/workflows/deploy-portfolio-backend.yml'
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  REGION: ${{ secrets.GCP_REGION }}
+  REPOSITORY: ${{ secrets.GCP_ARTIFACT_REPO }}
+  SERVICE: portfolio-backend
+  IMAGE: ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.GCP_ARTIFACT_REPO }}/portfolio-backend:${{ github.sha }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: portfolio-backend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v3
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+          workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+
+      - name: Set up gcloud
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker auth
+        run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev --quiet
+
+      - name: Run tests
+        run: ./gradlew test --no-daemon
+
+      - name: Build Docker image
+        run: docker build --platform linux/amd64 -t $IMAGE .
+
+      - name: Push Docker image
+        run: docker push $IMAGE
+
+      - name: Deploy to Cloud Run
+        id: deploy
+        uses: google-github-actions/deploy-cloudrun@v3
+        with:
+          service: ${{ env.SERVICE }}
+          region: ${{ env.REGION }}
+          image: ${{ env.IMAGE }}
+          flags: >-
+            --allow-unauthenticated
+            --port=8080
+            --memory=1Gi
+            --cpu=1
+            --timeout=300
+            --set-env-vars=GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
+
+      - name: Show URL
+        run: echo "${{ steps.deploy.outputs.url }}"
