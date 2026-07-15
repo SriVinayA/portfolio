@@ -174,8 +174,8 @@ export const projects = [
     name: "Portfolio Website",
     tagline: "This site — with a Spring AI + Gemini chatbot.",
     description:
-      "A modern, interactive personal portfolio built with React, Vite, TypeScript, Tailwind, and shadcn/ui. The AI chatbot is powered by a Spring Boot backend using Spring AI integrated with Google's Gemini API — try Cmd+K to ask it anything about my background.",
-    stack: ["React", "Vite", "TypeScript", "Tailwind", "Spring AI", "Gemini API"],
+      "A modern, interactive personal portfolio built with React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router/Start, and Vite. The AI chatbot is powered by a Spring Boot backend using Spring AI integrated with Google's Gemini API — try Cmd+K to ask it anything about my background.",
+    stack: ["React", "TanStack", "Vite", "Tailwind CSS", "Spring Boot", "Spring AI", "Gemini API"],
     link: "#",
     cover: portfolioCover,
   },
