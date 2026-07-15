@@ -92,7 +92,7 @@ export function ChatCommandPalette({
               ))}
               <div className="px-3 py-4 mt-2 border-t border-zinc-100 mx-1">
                 <p className="text-[11px] text-zinc-400 leading-relaxed">
-                  Streaming responses from the Spring AI + Gemini backend. Session-only — nothing
+                  Streaming responses from the Spring AI + DeepSeek backend. Session-only — nothing
                   is saved.
                 </p>
               </div>

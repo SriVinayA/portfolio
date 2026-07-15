@@ -32,7 +32,7 @@
 | **Cloud & DevOps** | AWS (EC2, S3, RDS, ELB, Lambda, API Gateway, CloudFormation, CloudWatch), Docker, Kubernetes, Jenkins, Maven, Gradle, Git, Bitbucket |
 | **Messaging & Streaming** | Apache Kafka, JMS |
 | **Databases** | Oracle, MySQL, SQL Server, PostgreSQL, MongoDB, Cassandra, DB2, DynamoDB |
-| **AI / LLM** | Spring AI, LangChain, LangGraph, GPT-4.1, Gemini 3.1, LLM Engineering, Cursor |
+| **AI / LLM** | Spring AI, LangChain, LangGraph, GPT-4.1, DeepSeek, LLM Engineering, Cursor |
 | **Testing & Tools** | JUnit, Mockito, Jest, Protractor, Postman, Log4j |
 | **Methodologies** | Agile, Scrum, TDD, CI/CD, SDLC |
 
@@ -118,12 +118,12 @@ A modern, interactive personal portfolio built to showcase my skills, projects, 
 
 **Tech Stack:**
 - **Frontend:** React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router, TanStack Start, Vite
-- **Backend:** Spring Boot, Spring WebFlux, Spring AI, Google Gemini 3.1
+- **Backend:** Spring Boot, Spring WebFlux, Spring AI, DeepSeek
 
 **Features:**
 - ⚡ **Modern React Stack:** Built with TanStack Router/Start and Vite for a seamless, lightning-fast user experience.
 - 🎨 **Editorial Design System:** A highly polished, responsive typography-driven layout with Tailwind CSS, shadcn/ui, a command-palette AI interface, and micro-animations.
-- 🤖 **Real-time AI Chatbot:** An intelligent assistant context-aware of my resume, featuring Server-Sent Events (SSE) streaming, built with Spring AI and Gemini 3.1.
+- 🤖 **Real-time AI Chatbot:** An intelligent assistant context-aware of my resume, featuring Server-Sent Events (SSE) streaming, built with Spring AI and DeepSeek.
 
 ---
 
