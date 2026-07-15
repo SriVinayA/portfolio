@@ -12,10 +12,10 @@ class ChatControllerTest {
     @Test
     void testStreamChat() {
         ChatService chatService = Mockito.mock(ChatService.class);
-        Mockito.when(chatService.streamChat("hello")).thenReturn(Flux.just("hi"));
+        Mockito.when(chatService.streamChat("hello", java.util.Collections.emptyList())).thenReturn(Flux.just("hi"));
 
         ChatController controller = new ChatController(chatService);
-        Flux<String> result = controller.streamChat(new ChatRequest("hello"));
+        Flux<String> result = controller.streamChat(new ChatRequest("hello", java.util.Collections.emptyList()));
 
         assertThat(result.blockFirst()).isEqualTo("hi");
     }
