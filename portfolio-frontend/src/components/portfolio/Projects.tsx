@@ -15,9 +15,12 @@ export function Projects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((p) => (
-            <article
+            <a
               key={p.name}
-              className="scroll-reveal group bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 overflow-hidden flex flex-col"
+              href={p.link !== "#" ? p.link : undefined}
+              target={p.link !== "#" ? "_blank" : undefined}
+              rel={p.link !== "#" ? "noopener noreferrer" : undefined}
+              className="scroll-reveal group bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 hover:ring-black/20 dark:hover:ring-white/20 overflow-hidden flex flex-col transition-all cursor-pointer"
             >
               <div className="aspect-[16/10] overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b border-zinc-100 dark:border-white/10">
                 <img
@@ -33,15 +36,9 @@ export function Projects() {
                 <div className="flex items-baseline justify-between mb-2">
                   <h4 className="font-serif text-2xl font-medium text-page-fg">{p.name}</h4>
                   {p.link !== "#" && (
-                    <a
-                      href={p.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-zinc-400 hover:text-accent transition-colors"
-                      aria-label={`Open ${p.name}`}
-                    >
+                    <div className="text-zinc-400 group-hover:text-accent transition-colors">
                       <ArrowUpRight className="size-4" strokeWidth={2.25} />
-                    </a>
+                    </div>
                   )}
                 </div>
                 <p className="text-sm text-zinc-500 dark:text-zinc-400 italic mb-4 font-serif">{p.tagline}</p>
@@ -59,7 +56,7 @@ export function Projects() {
                   ))}
                 </div>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </div>
