@@ -1,0 +1,58 @@
+import { experience } from "@/lib/profile";
+
+export function Trajectory() {
+  return (
+    <section id="experience" className="bg-zinc-100/60 py-24 border-y border-zinc-200/60">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="flex items-baseline justify-between mb-12">
+          <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
+            Professional Trajectory
+          </h2>
+          <span className="font-serif italic text-zinc-400 text-sm hidden sm:inline">
+            Five companies. One craft.
+          </span>
+        </div>
+        <div className="flex gap-6 overflow-x-auto pb-8 snap-x no-scrollbar -mx-6 px-6">
+          {experience.map((job, i) => (
+            <article
+              key={job.company}
+              className={`shrink-0 w-80 md:w-96 snap-start ${i === 0 ? "" : "opacity-70 hover:opacity-100 transition-opacity"}`}
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <span
+                  className={`text-xs font-medium ${i === 0 ? "text-accent" : "text-zinc-400"}`}
+                >
+                  {i === 0 ? "Most recent" : `Position ${i + 1}`}
+                </span>
+                <span className="text-zinc-300">·</span>
+                <span className="text-xs text-zinc-500">{job.location}</span>
+              </div>
+              <div className="p-6 bg-white rounded-2xl ring-1 ring-black/5 h-[340px] flex flex-col">
+                <h3 className="font-serif text-2xl font-medium mb-1 text-page-fg">{job.company}</h3>
+                <p className="text-sm text-zinc-500 mb-4">{job.role}</p>
+                <ul className="text-sm text-zinc-600 leading-relaxed space-y-2 flex-1 overflow-hidden">
+                  {job.highlights.slice(0, 3).map((h) => (
+                    <li key={h} className="flex gap-2">
+                      <span className="text-accent shrink-0 mt-1.5 size-1 rounded-full bg-accent" />
+                      <span className="line-clamp-2">{h}</span>
+                    </li>
+                  ))}
+                </ul>
+                <div className="flex flex-wrap gap-1.5 mt-4 pt-4 border-t border-zinc-100">
+                  {job.stack.slice(0, 5).map((s) => (
+                    <span
+                      key={s}
+                      className="px-2 py-0.5 bg-zinc-50 text-zinc-600 text-[11px] rounded ring-1 ring-black/5"
+                    >
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
