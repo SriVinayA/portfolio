@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Projects() {
   return (
-    <section id="projects" className="bg-zinc-100/60 py-24 md:py-32 border-y border-zinc-200/60">
+    <section id="projects" className="bg-zinc-100/60 dark:bg-white/5 py-24 md:py-32 border-y border-zinc-200/60 dark:border-white/10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 mb-6">
@@ -17,9 +17,9 @@ export function Projects() {
           {projects.map((p) => (
             <article
               key={p.name}
-              className="group bg-white rounded-2xl ring-1 ring-black/5 overflow-hidden flex flex-col"
+              className="group bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 overflow-hidden flex flex-col"
             >
-              <div className="aspect-[16/10] overflow-hidden bg-zinc-50 border-b border-zinc-100">
+              <div className="aspect-[16/10] overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b border-zinc-100 dark:border-white/10">
                 <img
                   src={p.cover}
                   alt={`${p.name} cover`}
@@ -44,15 +44,15 @@ export function Projects() {
                     </a>
                   )}
                 </div>
-                <p className="text-sm text-zinc-500 italic mb-4 font-serif">{p.tagline}</p>
-                <p className="text-sm text-zinc-600 leading-relaxed mb-5 flex-1">
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 italic mb-4 font-serif">{p.tagline}</p>
+                <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed mb-5 flex-1">
                   {p.description}
                 </p>
-                <div className="flex flex-wrap gap-1.5 pt-4 border-t border-zinc-100">
+                <div className="flex flex-wrap gap-1.5 pt-4 border-t border-zinc-100 dark:border-white/10">
                   {p.stack.map((s) => (
                     <span
                       key={s}
-                      className="px-2 py-0.5 bg-zinc-50 text-zinc-600 text-[11px] rounded ring-1 ring-black/5"
+                      className="px-2 py-0.5 bg-zinc-50 dark:bg-zinc-800/80 text-zinc-600 dark:text-zinc-400 text-[11px] rounded ring-1 ring-black/5 dark:ring-white/10"
                     >
                       {s}
                     </span>

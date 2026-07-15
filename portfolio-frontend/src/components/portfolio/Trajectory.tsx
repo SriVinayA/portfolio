@@ -29,8 +29,8 @@ export function Trajectory() {
               </div>
               <div className="p-6 bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 h-[340px] flex flex-col">
                 <h3 className="font-serif text-2xl font-medium mb-1 text-page-fg">{job.company}</h3>
-                <p className="text-sm text-zinc-500 mb-4">{job.role}</p>
-                <ul className="text-sm text-zinc-600 leading-relaxed space-y-2 flex-1 overflow-hidden">
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-4">{job.role}</p>
+                <ul className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed space-y-2 flex-1 overflow-hidden">
                   {job.highlights.slice(0, 3).map((h) => (
                     <li key={h} className="flex gap-2">
                       <span className="text-accent shrink-0 mt-1.5 size-1 rounded-full bg-accent" />

@@ -17,7 +17,7 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
         </h1>
       </div>
       <div className="max-w-[58ch]">
-        <p className="font-serif text-lg sm:text-xl text-zinc-600 leading-relaxed text-pretty mb-10">
+        <p className="font-serif text-lg sm:text-xl text-zinc-600 dark:text-zinc-400 leading-relaxed text-pretty mb-10">
           <span className="text-page-fg font-medium not-italic">{profile.name}</span> is a{" "}
           {profile.title} with 7+ years of experience architecting enterprise Java systems, plus
           deep work in <em>Python</em> and <em>C++</em> systems programming, alongside LLM orchestration.
@@ -34,7 +34,7 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
             href={profile.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 rounded-full font-medium ring-1 ring-zinc-200 text-zinc-700 hover:bg-white hover:text-page-fg transition-colors inline-flex items-center gap-2"
+            className="px-6 py-3 rounded-full font-medium ring-1 ring-zinc-200 dark:ring-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-white dark:hover:bg-white/10 hover:text-page-fg transition-colors inline-flex items-center gap-2"
           >
             GitHub
             <ArrowUpRight className="size-4" strokeWidth={2.25} />
@@ -43,7 +43,7 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
             href={profile.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 rounded-full font-medium ring-1 ring-zinc-200 text-zinc-700 hover:bg-white hover:text-page-fg transition-colors inline-flex items-center gap-2"
+            className="px-6 py-3 rounded-full font-medium ring-1 ring-zinc-200 dark:ring-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-white dark:hover:bg-white/10 hover:text-page-fg transition-colors inline-flex items-center gap-2"
           >
             LinkedIn
             <ArrowUpRight className="size-4" strokeWidth={2.25} />

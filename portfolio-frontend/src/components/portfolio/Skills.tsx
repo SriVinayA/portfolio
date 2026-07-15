@@ -11,7 +11,7 @@ export function Skills() {
           <h3 className="font-serif text-3xl md:text-4xl font-medium leading-tight max-w-[22ch] text-page-fg mb-6">
             A taxonomy of technical craft developed over seven years.
           </h3>
-          <p className="text-zinc-500 max-w-[48ch] text-pretty font-serif text-lg leading-relaxed">
+          <p className="text-zinc-500 dark:text-zinc-400 max-w-[48ch] text-pretty font-serif text-lg leading-relaxed">
             The convergence of scalable enterprise Java, intelligent Python pipelines, and high-performance C++ systems.
             cognitive capabilities of modern LLMs.
           </p>
