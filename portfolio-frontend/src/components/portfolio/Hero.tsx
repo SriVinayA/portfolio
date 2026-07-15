@@ -1,12 +1,11 @@
 import { profile } from "@/lib/profile";
 import { ArrowUpRight } from "lucide-react";
-import Spline from '@splinetool/react-spline';
-import { Suspense } from "react";
+import { Universe } from "./Universe";
 
 export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
   return (
-    <section id="top" className="max-w-7xl mx-auto px-6 pt-32 pb-24 md:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[85vh]">
-      <div className="flex flex-col z-10">
+    <section id="top" className="max-w-7xl mx-auto px-6 pt-32 pb-24 md:pb-32 grid md:grid-cols-[1.2fr_1fr] gap-8 items-center">
+      <div>
       <div className="flex items-center gap-2 mb-8">
         <span className="size-2 rounded-full bg-accent shadow-[0_0_10px_theme(colors.emerald.500/40%)]" />
         <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
@@ -55,17 +54,11 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
             <ArrowUpRight className="size-4" strokeWidth={2.25} />
           </a>
         </div>
+        </div>
       </div>
-      </div>
-
-      <div className="relative w-full h-[400px] lg:h-[600px] -mt-10 lg:mt-0 opacity-0 animate-in fade-in slide-in-from-bottom-8 duration-1000 fill-mode-forwards" style={{ animationDelay: "200ms" }}>
-        <div className="absolute inset-0 pointer-events-none rounded-full bg-accent/20 blur-[120px] mix-blend-screen" />
-        <Suspense fallback={<div className="w-full h-full flex items-center justify-center text-zinc-500 font-mono text-sm">Loading 3D experience...</div>}>
-          <Spline
-            scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode"
-            className="w-full h-full"
-          />
-        </Suspense>
+      
+      <div className="hidden md:block">
+        <Universe />
       </div>
     </section>
   );
