@@ -75,6 +75,39 @@
   --ring: var(--accent);
 }
 
+.dark {
+  /* Dark mode palette */
+  --page-bg: oklch(0.15 0.01 260);
+  --page-fg: oklch(0.985 0.003 90);
+  --page-muted: oklch(0.65 0.01 260);
+  --page-subtle: oklch(0.20 0.01 260);
+  --ink: oklch(0.985 0.003 90);
+  --ink-muted: oklch(0.65 0.01 260);
+
+  /* Accent: slightly lighter forest green for dark mode */
+  --accent: oklch(0.65 0.13 149);
+  --accent-foreground: oklch(0.15 0.01 260);
+
+  /* shadcn base tokens */
+  --background: var(--page-bg);
+  --foreground: var(--page-fg);
+  --card: oklch(0.20 0.01 260);
+  --card-foreground: var(--page-fg);
+  --popover: oklch(0.20 0.01 260);
+  --popover-foreground: var(--page-fg);
+  --primary: var(--page-fg);
+  --primary-foreground: var(--page-bg);
+  --secondary: oklch(0.25 0.01 260);
+  --secondary-foreground: var(--page-fg);
+  --muted: oklch(0.25 0.01 260);
+  --muted-foreground: var(--page-muted);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0.003 90);
+  --border: oklch(0.3 0.01 260);
+  --input: oklch(0.3 0.01 260);
+  --ring: var(--accent);
+}
+
 @layer base {
   * {
     border-color: var(--color-border);

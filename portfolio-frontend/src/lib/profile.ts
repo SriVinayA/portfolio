@@ -2,7 +2,7 @@ export const profile = {
   name: "Vinay Appari",
   title: "Full Stack Java Developer",
   tagline:
-    "Architecting resilient enterprise systems with the intelligence of modern AI and the precision of well-crafted code.",
+    "Engineering intelligent enterprise solutions by combining scalable architecture, cloud platforms, and the possibilities of modern AI",
   summary:
     "Vinay Appari is a Full Stack Engineer with 7+ years of experience designing enterprise Java systems, plus deep work in Python, C++ systems programming, and AI/LLM orchestration.",
   location: "United States",
@@ -143,7 +143,7 @@ export const skills: { category: string; items: string[] }[] = [
   },
   {
     category: "AI / LLM",
-    items: ["Spring AI", "LangChain", "LangGraph", "GPT-4.1", "Gemini API", "Prompt Engineering"],
+    items: ["Spring AI", "LangChain", "LangGraph", "GPT-4.1", "Gemini 3.1", "Prompt Engineering"],
   },
 ];
 
@@ -153,13 +153,13 @@ import portfolioCover from "@/assets/portfolio-cover.jpg";
 
 export const projects = [
   {
-    name: "BoltFetch",
-    tagline: "A blazing-fast, resilient download manager written in Rust.",
+    name: "Portfolio Website",
+    tagline: "This site — with a Spring AI + Gemini chatbot.",
     description:
-      "High-performance multi-threaded download manager with dynamic multipart downloading, adaptive rate-limit handling, exponential backoff, and persistent resume via .boltfetch state files. Ships both a CLI (Clap + Indicatif) and a native Tauri v2 + Leptos desktop UI with an IDM-inspired segmented progress bar.",
-    stack: ["Rust", "Tokio", "Reqwest", "Tauri v2", "Leptos", "WebAssembly"],
-    link: "https://github.com/SriVinayA/BoltFetch",
-    cover: boltfetchCover,
+      "A modern, interactive personal portfolio built with React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router/Start, and Vite. The AI chatbot is powered by a Spring Boot backend using Spring AI integrated with Google's Gemini 3.1 API — try Cmd+K to ask it anything about my background.",
+    stack: ["React", "TanStack", "Vite", "Tailwind CSS", "Spring Boot", "Spring AI", "Gemini 3.1"],
+    link: "https://github.com/SriVinayA/portfolio",
+    cover: portfolioCover,
   },
   {
     name: "TalentTrek",
@@ -171,13 +171,13 @@ export const projects = [
     cover: talenttrekCover,
   },
   {
-    name: "Portfolio Website",
-    tagline: "This site — with a Spring AI + Gemini chatbot.",
+    name: "BoltFetch",
+    tagline: "A blazing-fast, resilient download manager written in Rust.",
     description:
-      "A modern, interactive personal portfolio built with React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router/Start, and Vite. The AI chatbot is powered by a Spring Boot backend using Spring AI integrated with Google's Gemini API — try Cmd+K to ask it anything about my background.",
-    stack: ["React", "TanStack", "Vite", "Tailwind CSS", "Spring Boot", "Spring AI", "Gemini API"],
-    link: "#",
-    cover: portfolioCover,
+      "High-performance multi-threaded download manager with dynamic multipart downloading, adaptive rate-limit handling, exponential backoff, and persistent resume via .boltfetch state files. Ships both a CLI (Clap + Indicatif) and a native Tauri v2 + Leptos desktop UI with an IDM-inspired segmented progress bar.",
+    stack: ["Rust", "Tokio", "Reqwest", "Tauri v2", "Leptos", "WebAssembly"],
+    link: "https://github.com/SriVinayA/BoltFetch",
+    cover: boltfetchCover,
   },
 ];
 
@@ -196,7 +196,7 @@ export const strengths = [
 
 export const education = [
   {
-    degree: "Master's Degree — Computer Science",
+    degree: "Master's Degree — Computer Software Engineering",
     detail: "Capstone: TalentTrek AI Career Platform",
   },
 ];

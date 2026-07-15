@@ -1,4 +1,5 @@
 import { Search } from "lucide-react";
+import { ThemeToggle } from "../ThemeToggle";
 
 export function Nav({ onOpenChat }: { onOpenChat: () => void }) {
   const isMac = typeof navigator !== "undefined" && /Mac|iPhone|iPad/.test(navigator.platform);
@@ -18,9 +19,10 @@ export function Nav({ onOpenChat }: { onOpenChat: () => void }) {
           <a href="#skills" className="hidden sm:inline text-zinc-500 hover:text-page-fg transition-colors">
             Craft
           </a>
+          <ThemeToggle />
           <button
             onClick={onOpenChat}
-            className="flex items-center gap-2 bg-zinc-900 text-zinc-50 py-2 pr-3 pl-2 rounded-md ring-1 ring-zinc-950/10 hover:bg-zinc-800 transition-colors"
+            className="flex items-center gap-2 bg-zinc-900 dark:bg-zinc-100 text-zinc-50 dark:text-zinc-900 py-2 pr-3 pl-2 rounded-md ring-1 ring-zinc-950/10 hover:bg-zinc-800 dark:hover:bg-zinc-200 transition-colors"
           >
             <span className="size-4 shrink-0 bg-white/15 rounded-full flex items-center justify-center">
               <Search className="size-2.5" strokeWidth={3} />
