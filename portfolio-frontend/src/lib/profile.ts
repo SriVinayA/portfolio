@@ -6,9 +6,9 @@ export const profile = {
   summary:
     "Vinay Appari is a Full Stack Engineer with 7+ years of experience designing enterprise Java systems, plus deep work in Python, C++ systems programming, and AI/LLM orchestration.",
   location: "United States",
-  email: "vinay.appari@example.com",
+  email: "sva.sjsu@gmail.com",
   github: "https://github.com/SriVinayA",
-  linkedin: "https://linkedin.com/in/vinayappari",
+  linkedin: "https://www.linkedin.com/in/vinay-sva/",
   website: "https://vinayappari.dev",
   quote:
     "Building systems that are fast, resilient, and intelligent — from enterprise Java microservices and Python AI pipelines, to C++ systems and modern web applications.",

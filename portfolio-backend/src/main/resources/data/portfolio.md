@@ -2,9 +2,9 @@
 
 > Backend Engineer (Java, Python, C++) | Full Stack Developer | AI Enthusiast
 
-📧 Email: vinay.appari@example.com  
+📧 Email: sva.sjsu@gmail.com  
 🔗 GitHub: [github.com/SriVinayA](https://github.com/SriVinayA)  
-💼 LinkedIn: [linkedin.com/in/vinayappari](https://linkedin.com/in/vinayappari)  
+💼 LinkedIn: [linkedin.com/in/vinay-sva](https://www.linkedin.com/in/vinay-sva/)  
 🌐 Portfolio: [vinayappari.dev](https://vinayappari.dev)
 
 ---
