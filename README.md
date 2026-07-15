@@ -57,9 +57,6 @@ A `render.yaml` blueprint and a `Dockerfile` are included in the root.
 1. Connect this repo to Render as a Blueprint.
 2. Add `GEMINI_API_KEY` to the environment variables in the Render dashboard.
 
-> [!WARNING]
-> **The `sync: false` Trap:** If you add new secret environment variables using `sync: false` in `render.yaml`, Render only prompts you for these during initial creation. It completely ignores changes to them on subsequent commits. You must add new secrets manually via the individual service dashboard.
-
 ### Frontend (Vercel)
 1. Import the repository into Vercel.
 2. Set the Root Directory to `portfolio-frontend`.
