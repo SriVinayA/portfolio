@@ -117,13 +117,13 @@
 A modern, interactive personal portfolio built to showcase my skills, projects, and professional journey.
 
 **Tech Stack:**
-- **Frontend:** Vanilla TypeScript, Vite, Custom CSS (Editorial Design)
-- **Backend:** Spring Boot, Spring WebFlux, Spring AI, Google Gemini 2.0 Flash API
+- **Frontend:** React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router, TanStack Start, Vite
+- **Backend:** Spring Boot, Spring WebFlux, Spring AI, Google Gemini API
 
 **Features:**
-- ⚡ **Lightning-fast Architecture:** Built with Vite and Vanilla TS for zero-overhead performance.
-- 🎨 **Editorial Design System:** A highly polished, responsive typography-driven layout with custom CSS, a command-palette AI interface, and micro-animations.
-- 🤖 **Real-time AI Chatbot:** An intelligent assistant context-aware of my resume, featuring Server-Sent Events (SSE) streaming, built with Spring AI and Gemini 2.0 Flash.
+- ⚡ **Modern React Stack:** Built with TanStack Router/Start and Vite for a seamless, lightning-fast user experience.
+- 🎨 **Editorial Design System:** A highly polished, responsive typography-driven layout with Tailwind CSS, shadcn/ui, a command-palette AI interface, and micro-animations.
+- 🤖 **Real-time AI Chatbot:** An intelligent assistant context-aware of my resume, featuring Server-Sent Events (SSE) streaming, built with Spring AI and the Gemini API.
 
 ---
 
