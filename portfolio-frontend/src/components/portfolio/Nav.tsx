@@ -4,19 +4,19 @@ import { ThemeToggle } from "../ThemeToggle";
 export function Nav({ onOpenChat }: { onOpenChat: () => void }) {
   const isMac = typeof navigator !== "undefined" && /Mac|iPhone|iPad/.test(navigator.platform);
   return (
-    <nav className="fixed top-0 w-full z-40 bg-page-bg/80 backdrop-blur-md border-b border-zinc-200/60">
+    <nav className="fixed top-0 w-full z-40 bg-page-bg/80 backdrop-blur-md border-b border-zinc-200/60 dark:border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#top" className="font-serif italic text-xl tracking-tight text-page-fg">
           Appari
         </a>
         <div className="flex items-center gap-2 sm:gap-8 text-sm font-medium">
-          <a href="#experience" className="hidden sm:inline text-zinc-500 hover:text-page-fg transition-colors">
+          <a href="#experience" className="hidden sm:inline text-zinc-500 dark:text-zinc-400 hover:text-page-fg transition-colors">
             Experience
           </a>
-          <a href="#projects" className="hidden sm:inline text-zinc-500 hover:text-page-fg transition-colors">
+          <a href="#projects" className="hidden sm:inline text-zinc-500 dark:text-zinc-400 hover:text-page-fg transition-colors">
             Projects
           </a>
-          <a href="#skills" className="hidden sm:inline text-zinc-500 hover:text-page-fg transition-colors">
+          <a href="#skills" className="hidden sm:inline text-zinc-500 dark:text-zinc-400 hover:text-page-fg transition-colors">
             Craft
           </a>
           <ThemeToggle />
