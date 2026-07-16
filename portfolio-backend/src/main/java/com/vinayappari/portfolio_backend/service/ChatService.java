@@ -39,6 +39,6 @@ public class ChatService {
                 .messages(springMessages)
                 .stream()
                 .content()
-                .delayElements(java.time.Duration.ofMillis(150));
+                .delayElements(java.time.Duration.ofMillis(50));
     }
 }
