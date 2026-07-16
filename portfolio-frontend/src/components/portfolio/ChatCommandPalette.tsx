@@ -65,9 +65,10 @@ export function ChatCommandPalette({
           {!hasThread ? (
             <div className="p-8 flex flex-row items-center justify-center text-left gap-6">
               <img
-                src="/panda-hi.jpg"
+                src="/panda-hi.png"
                 alt="Panda saying hi"
-                className="w-28 h-28 rounded-2xl shadow-sm object-cover shrink-0"
+                className="w-64 h-64 mb-6 rounded-2xl shadow-sm object-cover"
+                // className="w-28 h-28 rounded-2xl shadow-sm object-cover shrink-0"
               />
               <div>
                 <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
