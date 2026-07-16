@@ -204,19 +204,58 @@
   font-family: 'Excalifont', sans-serif;
 }
 
-/* Horizontal Scroll Affordances */
-@media (prefers-reduced-motion: no-preference) {
-  @supports (animation-timeline: scroll()) {
-    .scroller-x {
-      scroll-timeline: --scroller-x inline;
-    }
+/* Horizontal Scroll Affordances & Carousel Snapping */
+.scroller-x {
+  container-type: scroll-state;
+}
+.snap-start {
+  container-type: scroll-state;
+}
+
+.indicator-right {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+@supports (container-type: scroll-state) {
+  @container scroll-state(scrollable: right) {
     .indicator-right {
-      animation: fade-out-indicator both linear;
-      animation-timeline: --scroller-x;
-      animation-range: calc(100% - 20px) 100%;
+      opacity: 1;
     }
-    @keyframes fade-out-indicator {
-      to { opacity: 0; }
+  }
+}
+
+/* Trajectory Carousel Snap Highlights */
+.trajectory-card {
+  opacity: 1;
+  scale: 1;
+  transition: all 0.3s;
+}
+.trajectory-card-label {
+  color: var(--color-accent);
+}
+
+@supports (container-type: scroll-state) {
+  .trajectory-card {
+    opacity: 0.5;
+    scale: 0.98;
+  }
+  .trajectory-card:hover {
+    opacity: 0.8;
+  }
+  .trajectory-card-label {
+    color: var(--color-zinc-400);
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    @container scroll-state(snapped: inline) {
+      .trajectory-card {
+        opacity: 1;
+        scale: 1;
+      }
+      .trajectory-card-label {
+        color: var(--color-accent);
+      }
     }
   }
 }

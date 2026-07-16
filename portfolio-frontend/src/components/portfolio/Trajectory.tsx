@@ -1,32 +1,9 @@
 import { experience } from "@/lib/profile";
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export function Trajectory() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-            const index = Number(entry.target.getAttribute("data-index"));
-            setActiveIndex(index);
-          }
-        });
-      },
-      {
-        root: containerRef.current,
-        threshold: 0.5,
-      }
-    );
-
-    const cards = containerRef.current?.querySelectorAll(".snap-start");
-    cards?.forEach((card) => observer.observe(card));
-
-    return () => observer.disconnect();
-  }, []);
 
   const scroll = (direction: 'left' | 'right') => {
     if (containerRef.current) {
@@ -73,11 +50,11 @@ export function Trajectory() {
               <article
                 key={job.company}
                 data-index={i}
-                className={`scroll-reveal shrink-0 w-80 md:w-96 snap-start transition-all duration-300 ${i === activeIndex ? "opacity-100 scale-100" : "opacity-50 scale-[0.98] hover:opacity-80"}`}
+                className="trajectory-card scroll-reveal shrink-0 w-80 md:w-96 snap-start"
               >
                 <div className="flex items-center gap-2 mb-3">
                   <span
-                    className={`text-xs font-medium transition-colors duration-300 ${i === activeIndex ? "text-accent" : "text-zinc-400"}`}
+                    className="trajectory-card-label text-xs font-medium transition-colors duration-300"
                   >
                     {i === 0 ? "Most recent" : `Position ${i + 1}`}
                   </span>
