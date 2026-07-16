@@ -70,11 +70,11 @@ export function ChatCommandPalette({
                 className="w-64 h-64 mb-6 rounded-2xl shadow-sm object-cover"
                 // className="w-28 h-28 rounded-2xl shadow-sm object-cover shrink-0"
               />
-              <div style={{ fontFamily: "Excalifont, sans-serif" }}>
-                <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
+              <div>
+                <h3 className="font-excalifont text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
                   Hi, I am Vinay's AI assistant.
                 </h3>
-                <p className="text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed">
+                <p className="font-excalifont text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed">
                   You can ask anything about his experience, projects, or stack here.
                 </p>
               </div>

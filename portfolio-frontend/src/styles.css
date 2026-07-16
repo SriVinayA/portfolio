@@ -3,14 +3,6 @@
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
 
-@font-face {
-  font-family: "Excalifont";
-  src: url("/fonts/Excalifont-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -187,4 +179,16 @@
       animation-range: entry 5% cover 20%;
     }
   }
+}
+
+@font-face {
+  font-family: 'Excalifont';
+  src: url('/Excalifont-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@utility font-excalifont {
+  font-family: 'Excalifont', sans-serif;
 }
