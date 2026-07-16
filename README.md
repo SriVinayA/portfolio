@@ -14,8 +14,9 @@ A modern, interactive personal portfolio built with React and Spring Boot. This 
 *   **Framework:** Java 21, Spring Boot 3
 *   **AI Integration:** Spring AI, Google Gemini 3.1 Flash-Lite
 *   **Real-time Chat:** Server-Sent Events (SSE) for streaming responses
+*   **API Protection:** In-memory rate limiting via Bucket4j (7 req/min)
 *   **Build Tool:** Gradle
-*   **Deployment:** Render (via Docker)
+*   **Deployment:** Google Cloud Run (via Docker)
 
 ---
 
