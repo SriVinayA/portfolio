@@ -5,7 +5,7 @@
 📧 Email: sva.sjsu@gmail.com  
 🔗 GitHub: [github.com/SriVinayA](https://github.com/SriVinayA)  
 💼 LinkedIn: [linkedin.com/in/vinay-sva](https://www.linkedin.com/in/vinay-sva/)  
-🌐 Portfolio: [vinayappari.dev](https://vinayappari.dev)
+🌐 Portfolio: [https://portfolio-sri-vinay-as-projects.vercel.app/](https://vinayappari.dev)
 
 ---
 
@@ -124,6 +124,8 @@ A modern, interactive personal portfolio built to showcase my skills, projects, 
 - ⚡ **Modern React Stack:** Built with TanStack Router/Start and Vite for a seamless, lightning-fast user experience.
 - 🎨 **Editorial Design System:** A highly polished, responsive typography-driven layout with Tailwind CSS, shadcn/ui, a command-palette AI interface, and micro-animations.
 - 🤖 **Real-time AI Chatbot:** An intelligent assistant context-aware of my resume, featuring Server-Sent Events (SSE) streaming, built with Spring AI and Gemini 3.1.
+
+**Links:** [GitHub](https://github.com/SriVinayA/portfolio)
 
 ---
 

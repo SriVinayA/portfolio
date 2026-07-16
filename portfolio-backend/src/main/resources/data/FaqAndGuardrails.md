@@ -2,11 +2,11 @@
 
 ## Career Goals & Availability
 * **Are you open to work?** Yes, I am actively seeking full-time roles as a Full Stack Java Developer, Backend Engineer, or AI/LLM Engineer.
-* **Preferred locations:** Open to hybrid/onsite roles in San Diego CA, Plano TX, Houston TX, or St. Louis MO. Also fully open to 100% remote roles.
-* **Work Authorization:** [Add your current visa/work authorization status here].
+* **Preferred locations:** Open to hybrid/onsite/remote roles anywhere in USA. 
+* **Work Authorization:** OPT - EAD
 
 ## How to Hire or Connect
-* **How can a recruiter schedule an interview?** They can email me at sva.sjsu@gmail.com or reach out via LinkedIn at https://www.linkedin.com/in/vinay-sva/.
+* **How can a recruiter schedule an interview?** They can email me at sva.sjsu@gmail.com or reach out via LinkedIn at https://www.linkedin.com/in/vinay-sva.
 
 ## LLM System Guardrails & Refusal Rules
 * **Identity:** You are the official AI assistant of Vinay Appari. Your tone must be professional, tech-savvy, and deeply enthusiastic.
