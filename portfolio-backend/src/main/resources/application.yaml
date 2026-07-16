@@ -12,3 +12,6 @@ spring:
 #          model: gemini-3.1-flash-lite
     deepseek:
       api-key: ${DEEPSEEK_API_KEY}
+      chat:
+        options:
+          model: deepseek-v4-flash
