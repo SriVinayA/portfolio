@@ -25,10 +25,10 @@ A modern, interactive personal portfolio built with React and Spring Boot. This 
 ### Prerequisites
 *   Node.js v20+
 *   Java 21
-*   A Google Gemini API Key
+*   A DeepSeek API Key (API cost is cheap :))
 
 ### 1. Start the Backend
-The backend serves the AI chatbot. You must provide a Gemini API key.
+The backend serves the AI chatbot. You must provide a DeepSeek API key.
 
 ```bash
 cd portfolio-backend
