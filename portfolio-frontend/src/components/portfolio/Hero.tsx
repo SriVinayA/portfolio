@@ -21,7 +21,7 @@ export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
       </div>
       <div className="max-w-[58ch]">
         <p className="font-serif text-lg sm:text-xl text-zinc-600 dark:text-zinc-400 leading-relaxed text-pretty mb-10">
-          <span className="text-page-fg font-medium not-italic">{profile.name}</span> is a{" "}
+          I am a{" "}
           {profile.title} with 7+ years of experience architecting enterprise Java systems, plus
           deep work in <em>Python</em> and <em>C++</em> systems programming, alongside LLM orchestration.
         </p>
