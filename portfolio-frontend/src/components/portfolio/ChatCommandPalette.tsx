@@ -80,18 +80,17 @@ export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: 
         {/* Content */}
         <div ref={feedRef} className="flex-1 overflow-y-auto">
           {!hasThread ? (
-            <div className="p-8 flex flex-row items-center justify-center text-left gap-6">
+            <div className="p-4 sm:p-8 flex flex-row items-center justify-center text-left gap-4 sm:gap-6">
               <img
                 src="/panda-hi.png"
                 alt="Panda saying hi"
-                className="w-64 h-64 mb-6 rounded-2xl shadow-sm object-cover"
-                // className="w-28 h-28 rounded-2xl shadow-sm object-cover shrink-0"
+                className="w-32 h-32 sm:w-64 sm:h-64 rounded-2xl shadow-sm object-cover shrink-0"
               />
-              <div>
+              <div className="flex-1">
                 <h3 className="font-excalifont text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
                   Hi, I am Vinay's AI assistant.
                 </h3>
-                <p className="font-excalifont text-sm text-zinc-500 dark:text-zinc-400 max-w-62.5 leading-relaxed">
+                <p className="font-excalifont text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">
                   You can ask anything about his experience, projects, or stack here.
                 </p>
               </div>
@@ -120,7 +119,7 @@ export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: 
                         <div className="text-[10px] font-semibold uppercase tracking-widest text-zinc-400 mb-1">
                           Assistant
                         </div>
-                        <div className="text-sm leading-relaxed text-zinc-800 dark:text-zinc-300 prose prose-sm max-w-none prose-p:my-2 prose-p:leading-relaxed prose-strong:text-page-fg prose-code:text-accent prose-code:bg-zinc-50 dark:prose-code:bg-white/10 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:before:content-none prose-code:after:content-none prose-a:text-accent prose-ul:my-2 prose-li:my-0.5">
+                        <div className="text-sm leading-relaxed text-zinc-800 dark:text-zinc-300 prose prose-sm max-w-none prose-p:my-2 prose-p:leading-relaxed prose-strong:text-page-fg prose-code:text-accent">
                           {m.content ? (
                             <ReactMarkdown>{m.content}</ReactMarkdown>
                           ) : (
@@ -154,7 +153,7 @@ export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: 
 
         {/* Limit warning banner */}
         {showLimitWarning && (
-          <div className="px-4 py-2 text-xs font-medium text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-500/10 border-t border-amber-200/60 dark:border-amber-500/20 animate-in fade-in slide-in-from-bottom-1 duration-150">
+          <div className="px-4 py-2 text-xs font-medium text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-500/10 border-t border-amber-200/60 dark:border-amber-500/20 animate-in fade-in duration-150">
             Please keep your message under {MAX_CHARS} characters.
           </div>
         )}
