@@ -1,30 +1,9 @@
 import { experience } from "@/lib/profile";
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export function Trajectory() {
   const containerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
-    
-    const handleWheel = (e: WheelEvent) => {
-      // Translate vertical mouse wheel scrolling into horizontal scrolling
-      if (e.deltaY !== 0 && e.deltaX === 0) {
-        const canScrollLeft = container.scrollLeft > 0 && e.deltaY < 0;
-        const canScrollRight = Math.ceil(container.scrollLeft) < container.scrollWidth - container.clientWidth && e.deltaY > 0;
-        
-        if (canScrollLeft || canScrollRight) {
-          e.preventDefault();
-          container.scrollBy({ left: e.deltaY, behavior: 'auto' });
-        }
-      }
-    };
-
-    container.addEventListener("wheel", handleWheel, { passive: false });
-    return () => container.removeEventListener("wheel", handleWheel);
-  }, []);
 
   const scroll = (direction: 'left' | 'right') => {
     if (containerRef.current) {
