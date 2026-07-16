@@ -245,7 +245,7 @@
   to { transform: translateY(-150px); }
 }
 
-@supports (animation-timeline: scroll()) {
+@supports ((animation-timeline: scroll()) and (animation-range: 0% 100%)) {
   .parallax-bg-shape {
     animation: parallax-scroll linear;
     animation-timeline: scroll(root block);
