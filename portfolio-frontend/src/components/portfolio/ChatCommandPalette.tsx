@@ -63,22 +63,18 @@ export function ChatCommandPalette({
         {/* Content */}
         <div ref={feedRef} className="flex-1 overflow-y-auto">
           {!hasThread ? (
-            <div className="p-8 flex flex-col items-center justify-center text-center">
+            <div className="p-8 flex flex-row items-center justify-center text-left gap-6">
               <img
                 src="/panda-hi.jpg"
                 alt="Panda saying hi"
-                className="w-32 h-32 mb-6 rounded-2xl shadow-sm object-cover"
+                className="w-28 h-28 rounded-2xl shadow-sm object-cover shrink-0"
               />
-              <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
-                Hi, I am Vinay's AI assistant.
-              </h3>
-              <p className="text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed">
-                You can ask anything about his experience, projects, or stack here.
-              </p>
-              <div className="px-3 py-4 mt-2 border-t border-zinc-100 mx-1">
-                <p className="text-[11px] text-zinc-400 leading-relaxed">
-                  Streaming responses from the Spring AI + Gemini backend. Session-only — nothing
-                  is saved.
+              <div>
+                <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
+                  Hi, I am Vinay's AI assistant.
+                </h3>
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed">
+                  You can ask anything about his experience, projects, or stack here.
                 </p>
               </div>
             </div>
