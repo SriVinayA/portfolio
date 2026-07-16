@@ -3,7 +3,7 @@
 Note: /Users/srivinaya/Developer/portfolio/portfolio-backend/src/main/java/com/vinayappari/portfolio_backend/service/RateLimitingService.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :processResources
+> Task :processResources UP-TO-DATE
 > Task :classes
 > Task :resolveMainClassName
 
@@ -18,20 +18,20 @@ Note: Recompile with -Xlint:deprecation for details.
 
  :: Spring Boot ::                (v4.0.7)
 
-2026-07-15T20:40:30.970-04:00  INFO 11911 --- [portfolio-backend] [           main] c.v.p.PortfolioBackendApplication        : Starting PortfolioBackendApplication using Java 21.0.4 with PID 11911 (/Users/srivinaya/Developer/portfolio/portfolio-backend/build/classes/java/main started by srivinaya in /Users/srivinaya/Developer/portfolio/portfolio-backend)
-2026-07-15T20:40:30.971-04:00  INFO 11911 --- [portfolio-backend] [           main] c.v.p.PortfolioBackendApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-07-15T20:40:31.371-04:00  INFO 11911 --- [portfolio-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-07-15T20:40:31.377-04:00  INFO 11911 --- [portfolio-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-15T20:40:31.377-04:00  INFO 11911 --- [portfolio-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-07-15T20:40:31.396-04:00  INFO 11911 --- [portfolio-backend] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 407 ms
-2026-07-15T20:40:31.699-04:00  INFO 11911 --- [portfolio-backend] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2026-07-15T20:40:31.724-04:00  INFO 11911 --- [portfolio-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-07-15T20:40:31.727-04:00  INFO 11911 --- [portfolio-backend] [           main] c.v.p.PortfolioBackendApplication        : Started PortfolioBackendApplication in 0.926 seconds (process running for 1.064)
-2026-07-15T20:40:49.766-04:00  INFO 11911 --- [portfolio-backend] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-07-15T20:40:49.766-04:00  INFO 11911 --- [portfolio-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-07-15T20:40:49.767-04:00  INFO 11911 --- [portfolio-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-07-15T20:40:50.409-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-1] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
-2026-07-15T20:40:51.041-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:24.461-04:00  INFO 12080 --- [portfolio-backend] [           main] c.v.p.PortfolioBackendApplication        : Starting PortfolioBackendApplication using Java 21.0.4 with PID 12080 (/Users/srivinaya/Developer/portfolio/portfolio-backend/build/classes/java/main started by srivinaya in /Users/srivinaya/Developer/portfolio/portfolio-backend)
+2026-07-15T20:44:24.462-04:00  INFO 12080 --- [portfolio-backend] [           main] c.v.p.PortfolioBackendApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T20:44:24.845-04:00  INFO 12080 --- [portfolio-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T20:44:24.851-04:00  INFO 12080 --- [portfolio-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T20:44:24.851-04:00  INFO 12080 --- [portfolio-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T20:44:24.869-04:00  INFO 12080 --- [portfolio-backend] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 392 ms
+2026-07-15T20:44:25.162-04:00  INFO 12080 --- [portfolio-backend] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-15T20:44:25.184-04:00  INFO 12080 --- [portfolio-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T20:44:25.188-04:00  INFO 12080 --- [portfolio-backend] [           main] c.v.p.PortfolioBackendApplication        : Started PortfolioBackendApplication in 0.885 seconds (process running for 1.017)
+2026-07-15T20:44:43.511-04:00  INFO 12080 --- [portfolio-backend] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T20:44:43.511-04:00  INFO 12080 --- [portfolio-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T20:44:43.513-04:00  INFO 12080 --- [portfolio-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-15T20:44:44.028-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-1] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2026-07-15T20:44:44.758-04:00 ERROR 12080 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -91,7 +91,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.045-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:44.762-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -151,7 +151,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.045-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:44.763-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -211,7 +211,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.046-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:44.764-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -271,7 +271,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.047-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:44.765-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -331,7 +331,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.054-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+2026-07-15T20:44:44.774-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -391,7 +391,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.055-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
+2026-07-15T20:44:44.774-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -451,7 +451,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.479-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.192-04:00 ERROR 12080 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -511,7 +511,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.481-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.194-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -571,7 +571,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.482-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.195-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -631,7 +631,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.484-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.196-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -691,7 +691,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.485-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.197-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -751,7 +751,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.493-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+2026-07-15T20:44:45.201-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -811,7 +811,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.496-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
+2026-07-15T20:44:45.202-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -871,7 +871,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.869-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.569-04:00 ERROR 12080 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -931,7 +931,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.870-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.571-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -991,7 +991,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.871-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.572-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1051,7 +1051,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.872-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.572-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1111,7 +1111,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.873-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.573-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1171,7 +1171,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.878-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+2026-07-15T20:44:45.576-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1231,7 +1231,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:51.879-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
+2026-07-15T20:44:45.577-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1291,7 +1291,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.298-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.953-04:00 ERROR 12080 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1351,7 +1351,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.299-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.954-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1411,7 +1411,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.300-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.954-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1471,7 +1471,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.301-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.955-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1531,7 +1531,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.301-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:45.955-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1591,7 +1591,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.305-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+2026-07-15T20:44:45.957-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1651,7 +1651,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.306-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
+2026-07-15T20:44:45.958-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1711,7 +1711,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.706-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.317-04:00 ERROR 12080 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1771,7 +1771,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.707-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.318-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1831,7 +1831,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.708-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.319-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1891,7 +1891,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.708-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.319-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -1951,7 +1951,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.709-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.320-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2011,7 +2011,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.712-04:00 ERROR 11911 --- [portfolio-backend] [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+2026-07-15T20:44:46.323-04:00 ERROR 12080 --- [portfolio-backend] [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2071,7 +2071,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:52.713-04:00 ERROR 11911 --- [portfolio-backend] [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
+2026-07-15T20:44:46.324-04:00 ERROR 12080 --- [portfolio-backend] [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2131,7 +2131,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.092-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.763-04:00 ERROR 12080 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2191,7 +2191,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.094-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.764-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2251,7 +2251,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.094-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.765-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2311,7 +2311,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.095-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.765-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2371,7 +2371,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.095-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:46.766-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2431,7 +2431,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.099-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+2026-07-15T20:44:46.770-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2491,7 +2491,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.100-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
+2026-07-15T20:44:46.771-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2551,7 +2551,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.473-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:47.155-04:00 ERROR 12080 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2611,7 +2611,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.475-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:47.157-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2671,7 +2671,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.476-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:47.157-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2731,7 +2731,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.477-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:47.158-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2791,7 +2791,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.477-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
+2026-07-15T20:44:47.158-04:00 ERROR 12080 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2851,7 +2851,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.480-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+2026-07-15T20:44:47.162-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
@@ -2911,847 +2911,7 @@ Original Stack Trace:
 		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
 		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-07-15T20:40:53.481-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:53.935-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:53.936-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:53.937-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:53.937-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:53.938-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:53.941-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:53.942-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:54.345-04:00 ERROR 11911 --- [portfolio-backend] [ctor-http-nio-2] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:54.347-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:54.348-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:54.348-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:54.349-04:00 ERROR 11911 --- [portfolio-backend] [oundedElastic-1] o.s.ai.chat.model.MessageAggregator      : Aggregation Error
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:54.353-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
-
-org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
-	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ 401 UNAUTHORIZED from POST https://api.deepseek.com/chat/completions [DefaultWebClient]
-Original Stack Trace:
-		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-7.0.8.jar:7.0.8]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:159) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:130) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:300) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:338) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2093) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:263) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.8.6.jar:3.8.6]
-		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:419) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:467) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:521) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:947) ~[reactor-netty-http-1.3.6.jar:1.3.6]
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.3.6.jar:1.3.6]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:170) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:48) ~[netty-codec-http-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1526) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1435) ~[netty-handler-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:545) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:484) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
-		at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-07-15T20:40:54.354-04:00 ERROR 11911 --- [portfolio-backend] [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
+2026-07-15T20:44:47.162-04:00 ERROR 12080 --- [portfolio-backend] [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions] with root cause
 
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://api.deepseek.com/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-7.0.8.jar:7.0.8]
