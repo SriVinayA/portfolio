@@ -32,7 +32,7 @@ The backend serves the AI chatbot. You must provide a Gemini API key.
 
 ```bash
 cd portfolio-backend
-export GEMINI_API_KEY="your_api_key_here"
+export DEEPSEEK_API_KEY="your_api_key_here"
 ./gradlew bootRun
 ```
 *The backend will start on `http://localhost:8080`.*
@@ -53,16 +53,13 @@ npm run dev
 
 This repository is configured for automated, free-tier deployments.
 
-### Backend (Render)
-A `Dockerfile` is included in the root of the backend to automate the Java 21 build.
-1. Create a new **Web Service** in Render (do *not* use Blueprint).
-2. Connect this repository.
-3. Set the Root Directory to `portfolio-backend`.
-4. Render will automatically detect the Dockerfile.
-5. In the setup wizard, under Environment Variables, add `GEMINI_API_KEY` and your actual key.
-6. Click Deploy.
+### Backend (Google Cloud Run)
+A GitHub Actions workflow is included to automate the Java 21 build and deployment to Google Cloud Run.
+1. Create a Google Cloud Project and enable the Cloud Run API.
+2. Set up GitHub Repository Secrets for `GCP_CREDENTIALS` (your service account JSON) and `DEEPSEEK_API_KEY`.
+3. Pushing to the `main` branch will automatically trigger the `.github/workflows/deploy-portfolio-backend.yml` action to deploy your service.
 
 ### Frontend (Vercel)
 1. Import the repository into Vercel.
 2. Set the Root Directory to `portfolio-frontend`.
-3. Add a `VITE_CHAT_API_URL` environment variable pointing to your Render backend URL (e.g., `https://your-backend.onrender.com`).
+3. Add a `VITE_CHAT_API_URL` environment variable pointing to your Cloud Run backend URL (e.g., `https://portfolio-backend-xxxxxx.a.run.app`).
