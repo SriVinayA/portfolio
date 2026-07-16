@@ -12,11 +12,17 @@ A modern, interactive personal portfolio built with React and Spring Boot. This 
 
 ### Backend (`/portfolio-backend`)
 *   **Framework:** Java 21, Spring Boot 3
-*   **AI Integration:** Spring AI, Google Gemini 3.1 Flash-Lite
+*   **AI Integration:** Spring AI, Google Gemini 3.1 (600-token response limit)
 *   **Real-time Chat:** Server-Sent Events (SSE) for streaming responses
 *   **API Protection:** In-memory rate limiting via Bucket4j (7 req/min)
 *   **Build Tool:** Gradle
 *   **Deployment:** Google Cloud Run (via Docker)
+
+### 💬 Chat Features
+*   **Streaming Responses:** AI replies are streamed in real time using Server-Sent Events (SSE)
+*   **Prompt Limit:** User messages are limited to **300 characters** for concise, focused questions
+*   **Response Limit:** AI responses are capped at **600 tokens** to improve latency and control API usage
+*   **Rate Limiting:** 7 requests per minute using Bucket4j
 
 ---
 
@@ -28,7 +34,7 @@ A modern, interactive personal portfolio built with React and Spring Boot. This 
 *   A DeepSeek API Key (API cost is cheap :))
 
 ### 1. Start the Backend
-The backend serves the AI chatbot. You must provide a DeepSeek API key.
+The backend serves the AI chatbot. You must provide a DeepSeek API key. By default, AI responses are capped at 600 output tokens.
 
 ```bash
 cd portfolio-backend
