@@ -50,19 +50,20 @@ export function Trajectory() {
               <article
                 key={job.company}
                 data-index={i}
-                className="trajectory-card scroll-reveal shrink-0 w-80 md:w-96 snap-start"
+                className="scroll-reveal shrink-0 w-80 md:w-96 snap-start"
               >
-                <div className="flex items-center gap-2 mb-3">
-                  <span
-                    className="trajectory-card-label text-xs font-medium transition-colors duration-300"
-                  >
-                    {i === 0 ? "Most recent" : `Position ${i + 1}`}
-                  </span>
-                  <span className="text-zinc-300">·</span>
-                  <span className="text-xs text-zinc-500">{job.location}</span>
-                </div>
-                <div className="p-6 bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 h-[340px] flex flex-col">
-                  <h3 className="font-serif text-2xl font-medium mb-1 text-page-fg">{job.company}</h3>
+                <div className="trajectory-card h-full flex flex-col">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span
+                      className="trajectory-card-label text-xs font-medium transition-colors duration-300"
+                    >
+                      {i === 0 ? "Most recent" : `Position ${i + 1}`}
+                    </span>
+                    <span className="text-zinc-300">·</span>
+                    <span className="text-xs text-zinc-500">{job.location}</span>
+                  </div>
+                  <div className="p-6 bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 h-[340px] flex flex-col">
+                    <h3 className="font-serif text-2xl font-medium mb-1 text-page-fg">{job.company}</h3>
                   <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-4">{job.role}</p>
                   <ul className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed space-y-2 flex-1 overflow-hidden">
                     {job.highlights.slice(0, 3).map((h) => (
@@ -81,6 +82,7 @@ export function Trajectory() {
                         {s}
                       </span>
                     ))}
+                  </div>
                   </div>
                 </div>
               </article>
