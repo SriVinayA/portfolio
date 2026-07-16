@@ -1,8 +1,7 @@
 export const profile = {
   name: "Vinay Appari",
   title: "Full Stack Java Developer",
-  tagline:
-    "Engineering intelligent enterprise solutions by combining scalable architecture, cloud platforms, and the possibilities of modern AI",
+  tagline: "I engineer intelligent enterprise solutions. Ask my AI anything about my experience.",
   summary:
     "Vinay Appari is a Full Stack Engineer with 7+ years of experience designing enterprise Java systems, plus deep work in Python, C++ systems programming, and AI/LLM orchestration.",
   location: "United States",
