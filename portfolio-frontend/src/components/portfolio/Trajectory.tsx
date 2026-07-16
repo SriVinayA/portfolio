@@ -1,6 +1,41 @@
 import { experience } from "@/lib/profile";
+import { useRef, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export function Trajectory() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    
+    const handleWheel = (e: WheelEvent) => {
+      // Translate vertical mouse wheel scrolling into horizontal scrolling
+      if (e.deltaY !== 0 && e.deltaX === 0) {
+        const canScrollLeft = container.scrollLeft > 0 && e.deltaY < 0;
+        const canScrollRight = Math.ceil(container.scrollLeft) < container.scrollWidth - container.clientWidth && e.deltaY > 0;
+        
+        if (canScrollLeft || canScrollRight) {
+          e.preventDefault();
+          container.scrollBy({ left: e.deltaY, behavior: 'auto' });
+        }
+      }
+    };
+
+    container.addEventListener("wheel", handleWheel, { passive: false });
+    return () => container.removeEventListener("wheel", handleWheel);
+  }, []);
+
+  const scroll = (direction: 'left' | 'right') => {
+    if (containerRef.current) {
+      const scrollAmount = 350; // Roughly the width of one card + gap
+      containerRef.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <section id="experience" className="bg-zinc-100/60 dark:bg-white/5 py-24 border-y border-zinc-200/60 dark:border-white/10">
       <div className="max-w-7xl mx-auto px-6">
@@ -8,11 +43,29 @@ export function Trajectory() {
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
             Professional Trajectory
           </h2>
-          <span className="font-serif italic text-zinc-400 text-sm hidden sm:inline">
-            Five companies. One craft.
-          </span>
+          <div className="flex items-center gap-6">
+            <span className="font-serif italic text-zinc-400 text-sm hidden sm:inline">
+              Five companies. One craft.
+            </span>
+            <div className="hidden sm:flex items-center gap-2">
+              <button 
+                onClick={() => scroll('left')}
+                className="p-2 rounded-full border border-zinc-200 dark:border-white/10 hover:bg-zinc-200 dark:hover:bg-white/10 transition-colors text-zinc-500 dark:text-zinc-400"
+                aria-label="Scroll left"
+              >
+                <ChevronLeft size={16} />
+              </button>
+              <button 
+                onClick={() => scroll('right')}
+                className="p-2 rounded-full border border-zinc-200 dark:border-white/10 hover:bg-zinc-200 dark:hover:bg-white/10 transition-colors text-zinc-500 dark:text-zinc-400"
+                aria-label="Scroll right"
+              >
+                <ChevronRight size={16} />
+              </button>
+            </div>
+          </div>
         </div>
-        <div className="flex gap-6 overflow-x-auto pb-8 snap-x no-scrollbar -mx-6 px-6">
+        <div ref={containerRef} className="flex gap-6 overflow-x-auto pb-8 snap-x no-scrollbar -mx-6 px-6">
           {experience.map((job, i) => (
             <article
               key={job.company}
