@@ -3,13 +3,7 @@ import { Search, X, Square, CornerDownLeft } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import { useStreamingChat } from "@/hooks/useStreamingChat";
 
-const SUGGESTIONS = [
-  "What is Vinay's experience with Apache Kafka?",
-  "Tell me about his Java and Python backend experience.",
-  "Summarize his AI/LLM work — Spring AI, LangChain, GPT-4.1.",
-  "Compare his Java, Python, and C++ experience.",
-  "What has he shipped at Toyota and Qualcomm?",
-];
+
 
 export function ChatCommandPalette({
   open,
@@ -69,27 +63,18 @@ export function ChatCommandPalette({
         {/* Content */}
         <div ref={feedRef} className="flex-1 overflow-y-auto">
           {!hasThread ? (
-            <div className="p-2">
-              <div className="px-3 py-2">
-                <h3 className="text-[10px] font-semibold text-zinc-400 uppercase tracking-widest">
-                  Suggested Queries
-                </h3>
-              </div>
-              {SUGGESTIONS.map((s) => (
-                <button
-                  key={s}
-                  onClick={() => submit(s)}
-                  className="w-full flex items-center gap-3 px-3 py-2 hover:bg-zinc-50 dark:hover:bg-white/5 rounded-lg group text-left transition-colors"
-                >
-                  <div className="size-5 flex items-center justify-center rounded-md bg-zinc-100 dark:bg-white/10 group-hover:bg-accent/10 transition-colors">
-                    <div className="size-1.5 rounded-full bg-zinc-400 group-hover:bg-accent" />
-                  </div>
-                  <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300 group-hover:text-page-fg">
-                    {s}
-                  </span>
-                  <CornerDownLeft className="size-3.5 text-zinc-300 ml-auto opacity-0 group-hover:opacity-100 transition-opacity" />
-                </button>
-              ))}
+            <div className="p-8 flex flex-col items-center justify-center text-center">
+              <img
+                src="/panda-hi.jpg"
+                alt="Panda saying hi"
+                className="w-32 h-32 mb-6 rounded-2xl shadow-sm object-cover"
+              />
+              <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
+                Hi, I am Vinay's AI assistant.
+              </h3>
+              <p className="text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed">
+                You can ask anything about his experience, projects, or stack here.
+              </p>
               <div className="px-3 py-4 mt-2 border-t border-zinc-100 mx-1">
                 <p className="text-[11px] text-zinc-400 leading-relaxed">
                   Streaming responses from the Spring AI + Gemini backend. Session-only — nothing
