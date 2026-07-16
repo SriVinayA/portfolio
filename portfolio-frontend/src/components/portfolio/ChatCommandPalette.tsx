@@ -71,10 +71,10 @@ export function ChatCommandPalette({
                 // className="w-28 h-28 rounded-2xl shadow-sm object-cover shrink-0"
               />
               <div>
-                <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
+                <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2 font-excali">
                   Hi, I am Vinay's AI assistant.
                 </h3>
-                <p className="text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed">
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed font-excali">
                   You can ask anything about his experience, projects, or stack here.
                 </p>
               </div>
