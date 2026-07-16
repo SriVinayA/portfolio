@@ -3,17 +3,12 @@ import { Search, X, Square, CornerDownLeft } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import { useStreamingChat } from "@/hooks/useStreamingChat";
 
+const MAX_CHARS = 300;
 
-
-export function ChatCommandPalette({
-  open,
-  onClose,
-}: {
-  open: boolean;
-  onClose: () => void;
-}) {
+export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: () => void }) {
   const { messages, status, sendMessage, stop, reset } = useStreamingChat();
   const [input, setInput] = useState("");
+  const [showLimitWarning, setShowLimitWarning] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const feedRef = useRef<HTMLDivElement>(null);
 
@@ -37,15 +32,39 @@ export function ChatCommandPalette({
     }
   }, [messages, status]);
 
+  // Auto-hide the limit warning after a few seconds
+  useEffect(() => {
+    if (!showLimitWarning) return;
+    const t = setTimeout(() => setShowLimitWarning(false), 3000);
+    return () => clearTimeout(t);
+  }, [showLimitWarning]);
+
   if (!open) return null;
 
   const isStreaming = status === "streaming";
   const hasThread = messages.length > 0;
+  const isOverLimit = input.length > MAX_CHARS;
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    if (value.length > MAX_CHARS) {
+      // Clip to the max and surface a warning instead of silently truncating
+      setInput(value.slice(0, MAX_CHARS));
+      setShowLimitWarning(true);
+    } else {
+      setInput(value);
+    }
+  };
 
   const submit = (text?: string) => {
     const value = (text ?? input).trim();
     if (!value || isStreaming) return;
+    if (value.length > MAX_CHARS) {
+      setShowLimitWarning(true);
+      return;
+    }
     setInput("");
+    setShowLimitWarning(false);
     void sendMessage(value);
   };
 
@@ -58,8 +77,6 @@ export function ChatCommandPalette({
         className="w-full max-w-2xl bg-white dark:bg-card rounded-2xl shadow-2xl ring-1 ring-black/10 dark:ring-white/10 overflow-hidden flex flex-col max-h-[80vh] animate-in zoom-in-95 slide-in-from-top-4 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
-
-
         {/* Content */}
         <div ref={feedRef} className="flex-1 overflow-y-auto">
           {!hasThread ? (
@@ -74,7 +91,7 @@ export function ChatCommandPalette({
                 <h3 className="font-excalifont text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
                   Hi, I am Vinay's AI assistant.
                 </h3>
-                <p className="font-excalifont text-sm text-zinc-500 dark:text-zinc-400 max-w-[250px] leading-relaxed">
+                <p className="font-excalifont text-sm text-zinc-500 dark:text-zinc-400 max-w-62.5 leading-relaxed">
                   You can ask anything about his experience, projects, or stack here.
                 </p>
               </div>
@@ -135,6 +152,13 @@ export function ChatCommandPalette({
           )}
         </div>
 
+        {/* Limit warning banner */}
+        {showLimitWarning && (
+          <div className="px-4 py-2 text-xs font-medium text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-500/10 border-t border-amber-200/60 dark:border-amber-500/20 animate-in fade-in slide-in-from-bottom-1 duration-150">
+            Please keep your message under {MAX_CHARS} characters.
+          </div>
+        )}
+
         {/* Input row */}
         <form
           onSubmit={(e) => {
@@ -147,12 +171,26 @@ export function ChatCommandPalette({
           <input
             ref={inputRef}
             value={input}
-            onChange={(e) => setInput(e.target.value)}
+            onChange={handleInputChange}
             type="text"
+            maxLength={MAX_CHARS}
             placeholder="Ask about Vinay's experience, projects, or stack…"
-            className="flex-1 bg-transparent border-none !outline-none text-base placeholder:text-zinc-400 py-1 text-page-fg"
+            className="flex-1 bg-transparent border-none outline-none! text-base placeholder:text-zinc-400 py-1 text-page-fg"
             autoComplete="off"
           />
+          {input.length > 0 && (
+            <span
+              className={`text-[10px] font-medium tabular-nums shrink-0 ${
+                isOverLimit
+                  ? "text-red-500"
+                  : input.length > MAX_CHARS - 40
+                    ? "text-amber-500"
+                    : "text-zinc-400"
+              }`}
+            >
+              {input.length}/{MAX_CHARS}
+            </span>
+          )}
           {isStreaming ? (
             <button
               type="button"
@@ -168,6 +206,7 @@ export function ChatCommandPalette({
               onClick={() => {
                 reset();
                 setInput("");
+                setShowLimitWarning(false);
                 inputRef.current?.focus();
               }}
               className="text-[11px] font-medium text-zinc-500 hover:text-page-fg transition-colors"
