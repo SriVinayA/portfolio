@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const [chatOpen, setChatOpen] = useState(false);
+  const [chatOpen, setChatOpen] = useState(true);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
