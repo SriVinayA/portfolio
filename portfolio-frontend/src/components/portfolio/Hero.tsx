@@ -3,7 +3,11 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Hero({ onOpenChat }: { onOpenChat: () => void }) {
   return (
-    <section id="top" className="max-w-7xl mx-auto px-6 pt-32 pb-24 md:pb-32">
+    <section id="top" className="relative max-w-7xl mx-auto px-6 pt-32 pb-24 md:pb-32">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">
+        <div className="parallax-bg-shape absolute top-0 right-[10%] w-[400px] sm:w-[600px] h-[400px] sm:h-[600px] rounded-full bg-accent/5 dark:bg-accent/10 blur-[100px] mix-blend-multiply dark:mix-blend-screen" />
+        <div className="parallax-bg-shape-reverse absolute top-[40%] left-[-10%] w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] rounded-full bg-emerald-500/5 dark:bg-emerald-500/10 blur-[100px] mix-blend-multiply dark:mix-blend-screen" />
+      </div>
       <div className="flex items-center gap-2 mb-8">
         <span className="size-2 rounded-full bg-accent shadow-[0_0_10px_theme(colors.emerald.500/40%)]" />
         <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-zinc-500">

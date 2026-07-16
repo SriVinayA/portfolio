@@ -150,7 +150,7 @@ export function ChatCommandPalette({
             onChange={(e) => setInput(e.target.value)}
             type="text"
             placeholder="Ask about Vinay's experience, projects, or stack…"
-            className="flex-1 bg-transparent border-none outline-none text-base placeholder:text-zinc-400 py-1 text-page-fg"
+            className="flex-1 bg-transparent border-none !outline-none text-base placeholder:text-zinc-400 py-1 text-page-fg"
             autoComplete="off"
           />
           {isStreaming ? (

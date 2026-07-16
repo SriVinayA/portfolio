@@ -2,9 +2,9 @@ import { skills } from "@/lib/profile";
 
 export function Skills() {
   return (
-    <section id="skills" className="max-w-7xl mx-auto px-6 py-24 md:py-32">
+    <section id="skills" style={{ contentVisibility: "auto", containIntrinsicSize: "auto 800px" }} className="max-w-7xl mx-auto px-6 py-24 md:py-32">
       <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-16 lg:gap-24">
-        <div>
+        <div className="scroll-reveal">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 mb-6">
             Technical Craft
           </h2>
@@ -18,7 +18,7 @@ export function Skills() {
         </div>
         <div className="space-y-8">
           {skills.map((group) => (
-            <div key={group.category}>
+            <div key={group.category} className="scroll-reveal">
               <h4 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-zinc-400 mb-3">
                 {group.category}
               </h4>

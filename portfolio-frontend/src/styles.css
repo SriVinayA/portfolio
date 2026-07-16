@@ -144,17 +144,31 @@
 }
 
 /* Nav Header Scroll Animation */
-@keyframes shrink-header {
-  to {
-    height: 3.5rem; /* equivalent to h-14 */
-    background-color: var(--color-page-bg);
-  }
-}
+@media (prefers-reduced-motion: no-preference) {
+  @supports ((animation-timeline: scroll()) and (animation-range: 0% 100%)) {
+    @keyframes shrink-header {
+      from {
+        height: 5rem;
+        background-color: transparent;
+        border-bottom-color: transparent;
+        backdrop-filter: blur(0px);
+        box-shadow: none;
+      }
+      to {
+        height: 3.5rem;
+        background-color: color-mix(in srgb, var(--color-page-bg) 85%, transparent);
+        border-bottom-color: color-mix(in srgb, var(--color-page-fg) 10%, transparent);
+        backdrop-filter: blur(12px);
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+      }
+    }
 
-.scroll-header {
-  animation: shrink-header auto linear both;
-  animation-timeline: scroll(block root);
-  animation-range: 0px 150px;
+    .scroll-header {
+      animation: shrink-header auto linear both;
+      animation-timeline: scroll(block root);
+      animation-range: 0px 150px;
+    }
+  }
 }
 
 /* Scroll Entry Effects */
@@ -189,3 +203,57 @@
 @utility font-excalifont {
   font-family: 'Excalifont', sans-serif;
 }
+
+/* Horizontal Scroll Affordances */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll()) {
+    .scroller-x {
+      scroll-timeline: --scroller-x inline;
+    }
+    .indicator-right {
+      animation: fade-out-indicator both linear;
+      animation-timeline: --scroller-x;
+      animation-range: calc(100% - 20px) 100%;
+    }
+    @keyframes fade-out-indicator {
+      to { opacity: 0; }
+    }
+  }
+}
+
+/* Magnetic Hover Glow */
+.card-glow {
+  background: radial-gradient(600px circle at var(--mouse-x, 0) var(--mouse-y, 0), rgba(0,0,0,0.06), transparent 40%);
+}
+:is(.dark .card-glow) {
+  background: radial-gradient(600px circle at var(--mouse-x, 0) var(--mouse-y, 0), rgba(255,255,255,0.1), transparent 40%);
+}
+
+/* Global Focus Accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@keyframes parallax-scroll {
+  from { transform: translateY(0); }
+  to { transform: translateY(200px); }
+}
+
+@keyframes parallax-scroll-reverse {
+  from { transform: translateY(0); }
+  to { transform: translateY(-150px); }
+}
+
+@supports (animation-timeline: scroll()) {
+  .parallax-bg-shape {
+    animation: parallax-scroll linear;
+    animation-timeline: scroll(root block);
+  }
+
+  .parallax-bg-shape-reverse {
+    animation: parallax-scroll-reverse linear;
+    animation-timeline: scroll(root block);
+  }
+}
+

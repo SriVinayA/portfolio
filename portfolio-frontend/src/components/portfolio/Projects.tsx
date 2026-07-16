@@ -3,9 +3,9 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Projects() {
   return (
-    <section id="projects" className="bg-zinc-100/60 dark:bg-white/5 py-24 md:py-32 border-y border-zinc-200/60 dark:border-white/10">
+    <section id="projects" style={{ contentVisibility: "auto", containIntrinsicSize: "auto 800px" }} className="bg-zinc-100/60 dark:bg-white/5 py-24 md:py-32 border-y border-zinc-200/60 dark:border-white/10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="mb-16">
+        <div className="mb-16 scroll-reveal">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 mb-6">
             Featured Builds
           </h2>
@@ -14,19 +14,29 @@ export function Projects() {
           </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {projects.map((p) => (
+          {projects.map((p, i) => (
             <a
               key={p.name}
               href={p.link !== "#" ? p.link : undefined}
               target={p.link !== "#" ? "_blank" : undefined}
               rel={p.link !== "#" ? "noopener noreferrer" : undefined}
-              className="scroll-reveal group bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 hover:ring-black/20 dark:hover:ring-white/20 overflow-hidden flex flex-col transition-all cursor-pointer"
+              className="scroll-reveal relative group bg-white dark:bg-card rounded-2xl ring-1 ring-black/5 dark:ring-white/10 hover:ring-black/20 dark:hover:ring-white/20 overflow-hidden flex flex-col transition-all cursor-pointer"
+              onPointerMove={(e) => {
+                const rect = e.currentTarget.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                e.currentTarget.style.setProperty('--mouse-x', `${x}px`);
+                e.currentTarget.style.setProperty('--mouse-y', `${y}px`);
+              }}
             >
-              <div className="aspect-[16/10] overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b border-zinc-100 dark:border-white/10">
+              <div className="card-glow pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 mix-blend-overlay" />
+              <div className="aspect-[16/10] overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b border-zinc-100 dark:border-white/10 relative z-0">
                 <img
                   src={p.cover}
                   alt={`${p.name} cover`}
-                  loading="lazy"
+                  loading={i === 0 ? undefined : "lazy"}
+                  decoding={i === 0 ? undefined : "async"}
+                  fetchPriority={i === 0 ? "high" : "auto"}
                   width={1024}
                   height={640}
                   className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"

@@ -8,6 +8,7 @@ import { Projects } from "@/components/portfolio/Projects";
 import { Strengths } from "@/components/portfolio/Strengths";
 import { Footer } from "@/components/portfolio/Footer";
 import { ChatCommandPalette } from "@/components/portfolio/ChatCommandPalette";
+import { FloatingChatButton } from "@/components/portfolio/FloatingChatButton";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -39,6 +40,7 @@ function Index() {
       </main>
       <Footer />
       <ChatCommandPalette open={chatOpen} onClose={() => setChatOpen(false)} />
+      <FloatingChatButton onOpen={() => setChatOpen(true)} />
     </div>
   );
 }

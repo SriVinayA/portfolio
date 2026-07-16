@@ -4,7 +4,7 @@ export function Strengths() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-24 md:py-32">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2 scroll-reveal">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 mb-6">
             Core Strengths
           </h2>
@@ -17,7 +17,7 @@ export function Strengths() {
             ))}
           </ul>
         </div>
-        <div>
+        <div className="scroll-reveal">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 mb-6">
             Education
           </h2>
