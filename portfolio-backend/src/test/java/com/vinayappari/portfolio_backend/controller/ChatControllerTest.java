@@ -12,10 +12,15 @@ class ChatControllerTest {
     @Test
     void testStreamChat() {
         ChatService chatService = Mockito.mock(ChatService.class);
-        Mockito.when(chatService.streamChat("hello", java.util.Collections.emptyList())).thenReturn(Flux.just("hi"));
+
+        // Update mock setup to use the new string conversationId
+        Mockito.when(chatService.streamChat("hello", "test-session-id"))
+                .thenReturn(Flux.just("hi"));
 
         ChatController controller = new ChatController(chatService);
-        Flux<String> result = controller.streamChat(new ChatRequest("hello", java.util.Collections.emptyList()));
+
+        // Update ChatRequest creation to pass the conversationId string
+        Flux<String> result = controller.streamChat(new ChatRequest("hello", "test-session-id"));
 
         assertThat(result.blockFirst()).isEqualTo("hi");
     }

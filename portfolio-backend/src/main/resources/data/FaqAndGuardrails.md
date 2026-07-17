@@ -2,7 +2,7 @@
 
 ## Career Goals & Availability
 * **Are you open to work?** Yes, I am actively seeking full-time roles as a Full Stack Java Developer, Backend Engineer, or AI/LLM Engineer.
-* **Preferred locations:** Open to hybrid/onsite/remote roles anywhere in USA. 
+* **Preferred locations:** Open to hybrid/onsite/remote roles anywhere in the USA. 
 * **Work Authorization:** OPT - EAD
 
 ## How to Hire or Connect

@@ -1,5 +1,9 @@
 package com.vinayappari.portfolio_backend.config;
 
+import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
+import org.springframework.ai.chat.memory.ChatMemory;
+import org.springframework.ai.chat.memory.InMemoryChatMemoryRepository;
+import org.springframework.ai.chat.memory.MessageWindowChatMemory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +25,15 @@ public class ChatConfiguration {
     private Resource faqResource;
 
     @Bean
-    public ChatClient chatClient(ChatClient.Builder builder) throws IOException {
+    public ChatMemory chatMemory() {
+        return MessageWindowChatMemory.builder()
+                .chatMemoryRepository(new InMemoryChatMemoryRepository())
+                .maxMessages(10) // Keeps the last 10 messages in the sliding window
+                .build();
+    }
+
+    @Bean
+    public ChatClient chatClient(ChatClient.Builder builder, ChatMemory chatMemory) throws IOException {
         String systemPrompt = new String(systemPromptResource.getContentAsByteArray(), StandardCharsets.UTF_8);
         String portfolio = new String(portfolioResource.getContentAsByteArray(), StandardCharsets.UTF_8);
         String faq = new String(faqResource.getContentAsByteArray(), StandardCharsets.UTF_8);
@@ -29,8 +41,11 @@ public class ChatConfiguration {
         // Simple string replacement as specified in SystemPrompt.md
         String fullPrompt = systemPrompt
             .replace("{resources/data/portfolio.md}", portfolio)
-            + "\n\nFAQ AND GUARDRAILS:\n" + faq;
+                .replace("{resources/data/FaqAndGuardrails.md}", faq);
 
-        return builder.defaultSystem(fullPrompt).build();
+        return builder
+                .defaultSystem(fullPrompt)
+                .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
+                .build();
     }
 }
