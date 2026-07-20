@@ -25,7 +25,6 @@ public class ChatService {
                 // Use the updated constant from the ChatMemory interface
                 .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, chatId))
                 .stream()
-                .content()
-                .delayElements(Duration.ofMillis(50));
+                .content();
     }
 }

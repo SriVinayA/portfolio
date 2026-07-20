@@ -116,9 +116,16 @@ export function useStreamingChat() {
         const { text, rest } = extractDelta(buffer);
         buffer = rest;
         if (text) {
-          setMessages((prev) =>
-            prev.map((m) => (m.id === assistantMsg.id ? { ...m, content: m.content + text } : m)),
-          );
+          // Simulate streaming delay on the frontend
+          const chunkSize = 4;
+          for (let i = 0; i < text.length; i += chunkSize) {
+            if (controller.signal.aborted) break;
+            const chunk = text.slice(i, i + chunkSize);
+            setMessages((prev) =>
+              prev.map((m) => (m.id === assistantMsg.id ? { ...m, content: m.content + chunk } : m)),
+            );
+            await new Promise((r) => setTimeout(r, 15));
+          }
         }
       }
 
@@ -126,9 +133,15 @@ export function useStreamingChat() {
       if (buffer.trim()) {
         const { text } = extractDelta(buffer + "\n\n");
         if (text) {
-          setMessages((prev) =>
-            prev.map((m) => (m.id === assistantMsg.id ? { ...m, content: m.content + text } : m)),
-          );
+          const chunkSize = 4;
+          for (let i = 0; i < text.length; i += chunkSize) {
+            if (controller.signal.aborted) break;
+            const chunk = text.slice(i, i + chunkSize);
+            setMessages((prev) =>
+              prev.map((m) => (m.id === assistantMsg.id ? { ...m, content: m.content + chunk } : m)),
+            );
+            await new Promise((r) => setTimeout(r, 15));
+          }
         }
       }
 
