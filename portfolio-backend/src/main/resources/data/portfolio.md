@@ -38,7 +38,7 @@ Recent focus: Bridging traditional enterprise Java with modern AI/LLM capabiliti
 ## Professional Experience
 
 ### Qualcomm — Full Stack Java Developer
-San Diego, CA | [Add your dates]
+San Diego, CA | Sep 2024 – Present
 
 - Architected microservices using Spring Boot and deployed on AWS EC2 with Docker containers, supporting high-throughput internal tools
 - Built responsive UIs with Angular 9 and React (Redux + React Router), reducing page load times through lazy loading and code splitting
@@ -51,7 +51,7 @@ San Diego, CA | [Add your dates]
 ---
 
 ### Toyota — Full Stack Java Developer
-Plano, TX | [Add your dates]
+Plano, TX | Oct 2022 – Aug 2024
 
 - Developed Angular 2 SPAs with RxJS Observables for asynchronous data handling, improving UI responsiveness
 - Built REST and SOAP web services with Spring Boot, serving internal automotive platform APIs
@@ -63,7 +63,7 @@ Plano, TX | [Add your dates]
 ---
 
 ### LJA Engineering — Full Stack Java Developer
-Houston, TX | [Add your dates]
+Houston, TX | May 2021 – Sep 2022
 
 - Developed RESTful microservices with Java 8 (Lambda, Streams) and Spring Boot for engineering data platforms
 - Built SPAs using ReactJS and Angular 6–9 with responsive SCSS/CSS designs
@@ -75,7 +75,7 @@ Houston, TX | [Add your dates]
 ---
 
 ### Centene — Full Stack Java Developer
-St. Louis, MO | [Add your dates]
+St. Louis, MO | Oct 2019 – Apr 2021
 
 - Migrated monolithic Java EE applications to Spring Boot microservices, improving deployment frequency from weekly to daily
 - Developed asynchronous REST services and optimized Oracle/SQL Server queries for reporting dashboards
@@ -86,7 +86,7 @@ St. Louis, MO | [Add your dates]
 ---
 
 ### Mindmade Technologies — Full Stack Java Developer
-Coimbatore, India | [Add your dates]
+Coimbatore, India | July 2017 – Sep 2019
 
 - Developed Java EE web applications using JSF, JSP, Servlets, and Struts following MVC architecture
 - Built XML processing modules with DOM, XSLT, JAXB for data interchange with external systems

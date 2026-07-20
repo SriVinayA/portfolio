@@ -18,7 +18,7 @@ export const experience = [
     company: "Qualcomm",
     role: "Full Stack Java Developer",
     location: "San Diego, CA",
-    period: "Recent",
+    period: "Sep 2024 – Present",
     stack: ["Java 8", "Spring Boot", "ReactJS", "Angular", "AWS", "Kafka", "MongoDB", "Kubernetes"],
     highlights: [
       "Developed enterprise applications using Java, Spring Boot, Microservices, ReactJS, Angular, MongoDB, and MySQL.",
@@ -32,7 +32,7 @@ export const experience = [
     company: "Toyota",
     role: "Full Stack Java Developer",
     location: "Plano, TX",
-    period: "",
+    period: "Oct 2022 – Aug 2024",
     stack: ["Java 8", "Spring Boot", "Angular 2", "AWS", "MongoDB", "Jenkins"],
     highlights: [
       "Developed microservices using Spring Boot and REST APIs.",
@@ -45,7 +45,7 @@ export const experience = [
     company: "LJA Engineering",
     role: "Full Stack Java Developer",
     location: "Houston, TX",
-    period: "",
+    period: "May 2021 – Sep 2022",
     stack: ["Java 8", "Spring Boot", "ReactJS", "Angular", "Kafka", "AWS", "Oracle"],
     highlights: [
       "Developed RESTful microservices using Java 8 and Spring Boot.",
@@ -58,7 +58,7 @@ export const experience = [
     company: "Centene",
     role: "Full Stack Java Developer",
     location: "St. Louis, MO",
-    period: "",
+    period: "Oct 2019 – Apr 2021",
     stack: ["Java 8", "Spring Boot", "Oracle", "SQL Server", "Azure", "PCF", "Jenkins"],
     highlights: [
       "Modernized monolithic applications into Spring Boot microservices.",
@@ -71,7 +71,7 @@ export const experience = [
     company: "Mindmade Technologies",
     role: "Full Stack Java Developer",
     location: "Coimbatore, India",
-    period: "",
+    period: "July 2017 – Sep 2019",
     stack: ["Java/J2EE", "JSP", "JSF", "Struts", "Oracle", "WebSphere", "Hibernate"],
     highlights: [
       "Developed Java EE applications using JSP, Servlets, JSF, Struts, JDBC, and Hibernate.",
