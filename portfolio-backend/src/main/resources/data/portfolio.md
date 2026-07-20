@@ -1,188 +1,116 @@
 # Vinay Appari
+## Full Stack Java Developer
 
-> Backend Engineer (Java, Python, C++) | Full Stack Developer | AI Enthusiast
-
-📧 Email: sva.sjsu@gmail.com  
-🔗 GitHub: [github.com/SriVinayA](https://github.com/SriVinayA)  
-💼 LinkedIn: [linkedin.com/in/vinay-sva](https://www.linkedin.com/in/vinay-sva/)  
-🌐 Portfolio: [https://portfolio-sri-vinay-as-projects.vercel.app/](https://vinayappari.dev)
+- Phone: (513) 409-4431
+- Email: sva.sjsu@gmail.com
+- LinkedIn: https://www.linkedin.com/in/vinay-sva
+- GitHub: https://github.com/SriVinayA
+- Portfolio: https://portfolio-sri-vinay-as-projects.vercel.app
 
 ---
 
 ## Professional Summary
 
-* **7+ years** of experience in designing, developing, and deploying enterprise web applications using **Java/J2EE** technologies.
-* Expertise in **Java 8+, Spring Boot, Spring MVC, Hibernate, Microservices, REST APIs, Spring Security, and Kafka**.
-* Strong front-end development experience with **ReactJS, Angular (2–9), TypeScript, JavaScript, HTML5, CSS3, Bootstrap, Redux, and jQuery**.
-* Hands-on experience with **AWS**, **Docker**, **Kubernetes**, **Jenkins**, and CI/CD pipeline implementation.
-* Skilled in **MongoDB, Oracle, MySQL, SQL Server, PostgreSQL, Cassandra, and DB2**.
-* Experience working in **Agile/Scrum**, Test-Driven Development (TDD), and the full Software Development Life Cycle (SDLC).
-* Exposure to modern AI technologies including **Spring AI, LangChain, LangGraph, LLM Engineering, and Cursor**.
-* Extensive experience in scalable backend architecture using **Java** and **Python**, alongside systems programming in **C++** and **Rust**.
+Full Stack Java Developer with 7+ years building enterprise systems across healthcare, automotive, telecom, and engineering sectors. Specializes in designing scalable microservices with Spring Boot, building responsive SPAs with React and Angular, deploying containerized applications on AWS, and integrating AI/LLM capabilities into production systems.
+
+Recent focus: Bridging traditional enterprise Java with modern AI/LLM capabilities — demonstrated in my Master's capstone (AI Resume Tailoring platform) and my portfolio's Spring AI + Gemini chatbot.
 
 ---
 
 ## Technical Skills
 
-| Category | Technologies |
-|----------|-------------|
-| **Programming Languages** | Java, Python, C++, SQL, PL/SQL, Rust, C, TypeScript, JavaScript |
-| **Backend Technologies** | Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Spring AI, Hibernate, JPA, Microservices, REST APIs, SOAP, JMS, JDBC, FastAPI |
-| **Frontend Technologies** | ReactJS, Redux, Angular (2–9), TypeScript, JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, jQuery, AJAX, shadcn/ui, Leptos |
-| **Cloud & DevOps** | AWS (EC2, S3, RDS, ELB, Lambda, API Gateway, CloudFormation, CloudWatch), Docker, Kubernetes, Jenkins, Maven, Gradle, Git, Bitbucket |
-| **Messaging & Streaming** | Apache Kafka, JMS |
-| **Databases** | Oracle, MySQL, SQL Server, PostgreSQL, MongoDB, Cassandra, DB2, DynamoDB |
-| **AI / LLM** | Spring AI, LangChain, LangGraph, GPT-4.1, Gemini 3.1, LLM Engineering, Cursor |
-| **Testing & Tools** | JUnit, Mockito, Jest, Protractor, Postman, Log4j |
-| **Methodologies** | Agile, Scrum, TDD, CI/CD, SDLC |
+**Languages:** Java, Python, TypeScript, JavaScript, C++, SQL, PL/SQL
+
+**Backend:** Spring Boot, Spring Security, Spring AI, Hibernate, FastAPI, Node.js, REST, GraphQL, JMS
+
+**Frontend:** React, Redux, Angular 2–9, TypeScript, HTML5, CSS3, Tailwind CSS, Bootstrap
+
+**Cloud & DevOps:** AWS (EC2, S3, Lambda, RDS, API Gateway, CloudWatch), Docker, Kubernetes, Jenkins, Git, Maven, Gradle
+
+**Data & Streaming:** PostgreSQL, Oracle, MySQL, MongoDB, Cassandra, Apache Kafka, HBase
+
+**AI / LLM:** Spring AI, LangChain, LangGraph, GPT-4.1, Gemini, Prompt Engineering
+
+**Testing & Methodologies:** JUnit, Mockito, Jest, Agile/Scrum, CI/CD, Microservices Architecture
 
 ---
 
 ## Professional Experience
 
-### Qualcomm | Full Stack Java Developer | San Diego, CA
+### Qualcomm — Full Stack Java Developer
+San Diego, CA | [Add your dates]
 
-**Project Highlights**
-
-* Developed enterprise applications using **Java, Spring Boot, Microservices, ReactJS, Angular, MongoDB, and MySQL**.
-* Built responsive UIs with **ReactJS, Redux, Angular, HTML5, CSS3, Bootstrap**, and TypeScript.
-* Developed secure REST APIs using **Spring Security** and **OAuth2**.
-* Integrated **AWS** services and implemented containerized deployments using **Docker, Kubernetes, and Jenkins**.
-* Implemented **Kafka** for real-time messaging and event-driven architecture.
-* Worked with **MongoDB**, Elasticsearch, GraphQL, Node.js, and CI/CD pipelines.
-
-**Environment:** Java 8, Spring Boot, ReactJS, Angular, AWS, Docker, Kubernetes, Kafka, MongoDB, Jenkins.
+- Architected microservices using Spring Boot and deployed on AWS EC2 with Docker containers, supporting high-throughput internal tools
+- Built responsive UIs with Angular 9 and React (Redux + React Router), reducing page load times through lazy loading and code splitting
+- Implemented OAuth2/Spring Security for enterprise authentication across multiple services
+- Designed GraphQL APIs using Relay framework to unify data fetching for frontend teams
+- Configured Kafka for real-time event streaming between distributed services and HBase for data processing pipelines
+- Established Jenkins CI/CD pipelines for automated testing and deployment of microservices to Pivotal Cloud Foundry
+- **Environment:** Java 8/11, Spring Boot, Angular, React, MongoDB, MySQL, AWS, Docker, Kubernetes, Kafka, Jenkins
 
 ---
 
-### Toyota | Full Stack Java Developer | Plano, TX
+### Toyota — Full Stack Java Developer
+Plano, TX | [Add your dates]
 
-**Project Highlights**
-
-* Developed Microservices using **Spring Boot** and REST APIs.
-* Designed responsive web applications using **Angular 2, TypeScript, HTML5, CSS3, Bootstrap**, and JavaScript.
-* Implemented **Spring Security**, OAuth2, SOAP/REST services, and MongoDB.
-* Configured **AWS Route53**, Jenkins CI/CD, and Gradle build automation.
-* Followed Agile Scrum and TDD methodologies.
-
-**Environment:** Java 8, Spring Boot, Angular 2, AWS, MongoDB, Jenkins, Git.
+- Developed Angular 2 SPAs with RxJS Observables for asynchronous data handling, improving UI responsiveness
+- Built REST and SOAP web services with Spring Boot, serving internal automotive platform APIs
+- Implemented Spring Security + OAuth2 for role-based access control across microservices
+- Managed MongoDB CRUD operations and schema design for vehicle configuration data
+- Configured AWS Route53 DNS and deployed services with automated Jenkins pipelines
+- **Environment:** Java 8, Angular 2, TypeScript, Spring Boot, AWS, MongoDB, Jenkins, Git, JUnit
 
 ---
 
-### LJA Engineering | Full Stack Java Developer | Houston, TX
+### LJA Engineering — Full Stack Java Developer
+Houston, TX | [Add your dates]
 
-**Project Highlights**
-
-* Developed RESTful Microservices using **Java 8** and **Spring Boot**.
-* Built Single Page Applications using **ReactJS** and **Angular (6–9)**.
-* Implemented **Kafka** for real-time data streaming.
-* Worked extensively with **AWS** services including EC2, Lambda, API Gateway, DynamoDB, S3, and CloudFormation.
-* Used **Node.js**, Jenkins, Maven, and JUnit for development and automation.
-
-**Environment:** Java 8, Spring Boot, ReactJS, Angular, Kafka, AWS, Oracle, Jenkins.
+- Developed RESTful microservices with Java 8 (Lambda, Streams) and Spring Boot for engineering data platforms
+- Built SPAs using ReactJS and Angular 6–9 with responsive SCSS/CSS designs
+- Implemented Kafka producers/consumers for real-time data streaming between field sensors and cloud storage
+- Integrated Microsoft REST APIs for Azure AD authentication and Office 365 connectivity
+- Deployed on AWS using EC2, S3, RDS, Lambda, API Gateway, and CloudFormation IaC
+- **Environment:** Java 8, Spring Boot, Kafka, AWS, Angular, ReactJS, Jenkins, Oracle, REST APIs
 
 ---
 
-### Centene | Full Stack Java Developer | St. Louis, MO
+### Centene — Full Stack Java Developer
+St. Louis, MO | [Add your dates]
 
-**Project Highlights**
-
-* Modernized monolithic applications into **Spring Boot Microservices**.
-* Developed RESTful services and integrated with enterprise platforms.
-* Built CI/CD pipelines using **Jenkins** and ANT.
-* Deployed applications on **Pivotal Cloud Foundry (PCF)** and **Microsoft Azure**.
-* Worked with Oracle, SQL Server, Hibernate, and JUnit.
-
-**Environment:** Java 8, Spring Boot, REST, Oracle, SQL Server, Azure, PCF, Jenkins.
+- Migrated monolithic Java EE applications to Spring Boot microservices, improving deployment frequency from weekly to daily
+- Developed asynchronous REST services and optimized Oracle/SQL Server queries for reporting dashboards
+- Wrote PL/SQL stored procedures, functions, and triggers for healthcare data processing
+- Built CI/CD pipelines with Jenkins and ANT; deployed to Pivotal Cloud Foundry and Microsoft Azure
+- **Environment:** Java 8, Spring Boot, Hibernate, Oracle, SQL Server, Azure, PCF, Jenkins
 
 ---
 
-### Mindmade Technologies | Full Stack Java Developer | Coimbatore, India
+### Mindmade Technologies — Full Stack Java Developer
+Coimbatore, India | [Add your dates]
 
-**Project Highlights**
-
-* Developed Java EE applications using **JSP, Servlets, JSF, Struts, JDBC, and Hibernate**.
-* Built XML processing modules and implemented PL/SQL stored procedures.
-* Developed DAO components and deployed applications on IBM WebSphere.
-* Performed unit testing with JUnit and implemented multithreading.
-
-**Environment:** Java/J2EE, JSP, JSF, Struts, Oracle, WebSphere, Hibernate, JUnit.
-
----
-
-## Projects
-
-### 🚀 Portfolio Website (This Web App)
-
-A modern, interactive personal portfolio built to showcase my skills, projects, and professional journey.
-
-**Tech Stack:**
-- **Frontend:** React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Router, TanStack Start, Vite
-- **Backend:** Spring Boot, Spring WebFlux, Spring AI, Google Gemini 3.1
-
-**Features:**
-- ⚡ **Modern React Stack:** Built with TanStack Router/Start and Vite for a seamless, lightning-fast user experience.
-- 🎨 **Editorial Design System:** A highly polished, responsive typography-driven layout with Tailwind CSS, shadcn/ui, a command-palette AI interface, and micro-animations.
-- 🤖 **Real-time AI Chatbot:** An intelligent assistant context-aware of my resume, featuring Server-Sent Events (SSE) streaming, built with Spring AI and Gemini 3.1.
-
-**Links:** [GitHub](https://github.com/SriVinayA/portfolio)
-
----
-
-### ⚡ BoltFetch
-
-A concurrent, resilient download manager written in Rust.
-
-**Key Features:**
-- 🚀 **Multi-Threaded Downloads** — Dynamic multipart downloading with Tokio
-- 🛡️ **Adaptive Orchestrator** — Auto-detects rate limits and applies exponential backoff
-- 💾 **Resume Support** — Pause and recover from crashes via state files
-- 🖥️ **Interfaces:** CLI (Clap + Indicatif) and Desktop UI (Tauri v2 + Leptos)
-
-**Tech Stack:** Rust, Tokio, Reqwest, Tauri v2, Leptos, WebAssembly, Clap, Indicatif
-
-**Links:** [GitHub](https://github.com/SriVinayA/BoltFetch)
-
----
-
-### 🧠 TalentTrek: AI-Powered Career Companion
-
-Master's Capstone Project — An AI-powered career platform featuring a Resume Tailoring Microservice.
-
-**My Role:** Microservices & AI Developer
-
-**What I Built:**
-- **AI Resume Tailoring Microservice** — End-to-end pipeline that takes a job description + resume and produces a tailored, ATS-friendly PDF
-- **Structured Parsing** — Extracted and structured resume/JD text into JSON using PyMuPDF, python-docx, and custom parsers
-- **Gap Analysis Engine** — Cosine similarity scoring (scikit-learn TF-IDF) to identify strong matches vs. gaps
-- **AI Tailoring** — GPT-4.1 with structured JSON output for reliable, hallucination-free resume rewriting
-- **PDF Generation** — Custom JSON-to-LaTeX compiler producing professional, ATS-friendly resumes via MacTeX
-- **Overleaf Integration** — One-click "Edit in Overleaf" for user customization without LaTeX knowledge
-- **Production Deployment** — Dockerized microservice on AWS EC2 with API Gateway, Cognito JWT auth, rate limiting, and structured logging
-
-**Tech Stack:** Python, FastAPI, GPT-4.1, LaTeX, Docker, AWS EC2, API Gateway, Cognito, scikit-learn
-
----
-
-## Key Strengths
-
-* Enterprise Java application development
-* Microservices architecture and REST API development
-* Cloud-native applications using AWS
-* ReactJS and Angular front-end development
-* Docker, Kubernetes, and CI/CD implementation
-* Kafka-based distributed messaging
-* Database design and optimization
-* Systems programming (C++, Rust)
-* Python backend development and AI/LLM integration
-* Agile software delivery and DevOps practices
+- Developed Java EE web applications using JSF, JSP, Servlets, and Struts following MVC architecture
+- Built XML processing modules with DOM, XSLT, JAXB for data interchange with external systems
+- Created and optimized PL/SQL stored procedures for Oracle 10g, improving query performance
+- Deployed applications on IBM WebSphere 7 using ANT build scripts
+- **Environment:** Java 1.6, J2EE, JSF, Struts, Hibernate, Oracle 10g, IBM WebSphere, JUnit, XML
 
 ---
 
 ## Education
 
-- **Master's Degree** — Computer Science (Capstone: TalentTrek AI Career Platform)
+- **Master of Science — Computer Software Engineering**
+- San Jose State University, San Jose, CA
+- **Capstone:** TalentTrek AI Career Platform — AI-powered resume tailoring microservice using Python/FastAPI, GPT-4.1, LaTeX PDF generation, Docker, AWS EC2/API Gateway/Cognito
 
 ---
 
-> *"Building systems that are fast, resilient, and intelligent — from enterprise Java microservices and Python AI pipelines, to C++ systems and modern web applications."*
+## Featured Projects
+
+**Portfolio + AI Chatbot**
+Personal portfolio with Spring AI + Gemini 3.1 chatbot (Cmd+K to interact). Tech: React, TypeScript, Tailwind, Spring Boot, Spring AI, Gemini API
+
+**TalentTrek AI**
+AI resume tailoring: parses resume + JD, runs gap analysis, GPT-4.1 rewrite, ATS-friendly PDF output. Tech: Python, FastAPI, GPT-4.1, LaTeX, Docker, AWS
+
+**BoltFetch**
+High-performance Rust download manager with multipart downloading, resume support, Tauri v2 desktop UI. Tech: Rust, Tokio, Tauri v2, Leptos, WebAssembly

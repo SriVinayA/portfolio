@@ -5,6 +5,36 @@ import { useStreamingChat } from "@/hooks/useStreamingChat";
 
 const MAX_CHARS = 300;
 
+const THINKING_PHRASES = [
+  "Thinking...",
+  "Searching memory...",
+  "Formulating response...",
+  "Almost there..."
+];
+
+function ThinkingIndicator() {
+  const [phraseIndex, setPhraseIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setPhraseIndex((i) => (i + 1) % THINKING_PHRASES.length);
+    }, 2000);
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <div className="flex items-center gap-2 py-2">
+      <span
+        key={phraseIndex}
+        className="text-sm text-zinc-500 italic animate-in fade-in slide-in-from-bottom-1 duration-300"
+      >
+        {THINKING_PHRASES[phraseIndex]}
+      </span>
+      <span className="size-1.5 bg-accent/50 rounded-full animate-pulse" />
+    </div>
+  );
+}
+
 export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: () => void }) {
   const { messages, status, sendMessage, stop, reset } = useStreamingChat();
   const [input, setInput] = useState("");
@@ -123,20 +153,7 @@ export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: 
                           {m.content ? (
                             <ReactMarkdown>{m.content}</ReactMarkdown>
                           ) : (
-                            <span className="inline-flex gap-1 py-2">
-                              <span
-                                className="size-1.5 bg-accent/50 rounded-full animate-pulse"
-                                style={{ animationDelay: "0ms" }}
-                              />
-                              <span
-                                className="size-1.5 bg-accent/50 rounded-full animate-pulse"
-                                style={{ animationDelay: "150ms" }}
-                              />
-                              <span
-                                className="size-1.5 bg-accent/50 rounded-full animate-pulse"
-                                style={{ animationDelay: "300ms" }}
-                              />
-                            </span>
+                            <ThinkingIndicator />
                           )}
                           {isStreaming && m === messages[messages.length - 1] && m.content && (
                             <span className="inline-block w-1.5 h-4 ml-0.5 bg-accent/60 align-middle animate-pulse" />
