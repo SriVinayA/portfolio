@@ -151,9 +151,7 @@ export function useStreamingChat() {
         setStatus("idle");
         return;
       }
-      const msg =
-        (err as Error).message ??
-        "Couldn't reach the chat service. Make sure the backend is running at " + CHAT_API_BASE;
+      const msg = "Sorry, I couldn't reach the API right now. Please try again later.";
       setError(msg);
       setStatus("error");
       setMessages((prev) =>
@@ -161,7 +159,7 @@ export function useStreamingChat() {
           m.id === assistantMsg.id && !m.content
             ? {
                 ...m,
-                content: `_Couldn't reach the chat service._\n\n${msg}\n\nMake sure the Spring Boot backend is running at \`${CHAT_API_BASE}\`.`,
+                content: msg,
               }
             : m,
         ),
