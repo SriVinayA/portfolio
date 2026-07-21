@@ -6,7 +6,11 @@ export function Nav({ onOpenChat }: { onOpenChat: () => void }) {
   return (
     <nav className="scroll-header h-20 fixed top-0 w-full z-40 bg-page-bg/80 backdrop-blur-md border-b border-zinc-200/60 dark:border-white/10 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
-        <a href="#top" className="font-serif italic text-xl tracking-tight text-page-fg">
+        <a 
+          href="/" 
+          onClick={(e) => { e.preventDefault(); window.location.reload(); }}
+          className="font-serif italic text-xl tracking-tight text-page-fg cursor-pointer"
+        >
           &lt; Sri Vinay &gt;
         </a>
         <div className="flex items-center gap-2 sm:gap-8 text-sm font-medium">
