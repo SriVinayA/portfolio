@@ -197,6 +197,6 @@ export const strengths = [
 export const education = [
   {
     degree: "Master's Degree — Computer Software Engineering",
-    detail: "Capstone: TalentTrek AI Career Platform",
+    detail: "San Jose State University | Capstone: TalentTrek AI Career Platform",
   },
 ];

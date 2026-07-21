@@ -114,9 +114,9 @@ export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: 
               <img
                 src="/panda-hi.png"
                 alt="Panda saying hi"
-                className="w-32 h-32 sm:w-64 sm:h-64 rounded-2xl shadow-sm object-cover shrink-0"
+                className="w-32 h-32 sm:w-64 sm:h-64 rounded-2xl shadow-sm object-cover shrink-0 animate-in fade-in zoom-in-95 duration-700"
               />
-              <div className="flex-1">
+              <div className="flex-1 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-[150ms] fill-mode-backwards">
                 <h3 className="font-excalifont text-lg font-medium text-zinc-900 dark:text-zinc-100 mb-2">
                   Hi, I am Vinay's AI assistant.
                 </h3>
