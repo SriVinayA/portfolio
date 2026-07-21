@@ -57,7 +57,7 @@ export function Trajectory() {
                     <span
                       className="trajectory-card-label text-xs font-medium transition-colors duration-300"
                     >
-                      {i === 0 ? "Most recent" : `Position ${i + 1}`}
+                      {job.period}
                     </span>
                     <span className="text-zinc-300">·</span>
                     <span className="text-xs text-zinc-500">{job.location}</span>
