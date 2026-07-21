@@ -149,7 +149,7 @@ export function ChatCommandPalette({ open, onClose }: { open: boolean; onClose: 
                         <div className="text-[10px] font-semibold uppercase tracking-widest text-zinc-400 mb-1">
                           Assistant
                         </div>
-                        <div className="text-sm leading-relaxed text-zinc-800 dark:text-zinc-300 prose prose-sm max-w-none prose-p:my-2 prose-p:leading-relaxed prose-strong:text-page-fg prose-code:text-accent">
+                        <div className="text-sm leading-relaxed text-zinc-800 dark:text-zinc-300 prose prose-sm dark:prose-invert max-w-none prose-p:my-2 prose-p:leading-relaxed prose-strong:text-page-fg prose-code:text-accent">
                           {m.content ? (
                             <ReactMarkdown>{m.content}</ReactMarkdown>
                           ) : (
