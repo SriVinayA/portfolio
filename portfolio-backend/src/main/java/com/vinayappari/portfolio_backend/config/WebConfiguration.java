@@ -11,6 +11,8 @@ public class WebConfiguration implements WebMvcConfigurer {
         registry.addMapping("/**")
 //                .allowedOrigins("*") // In production, this should be restricted
                 .allowedOrigins(
+                "https://srivinay.dev",
+                "https://www.srivinay.dev",
                 "https://portfolio-sri-vinay-as-projects.vercel.app",
                 "https://portfolio-git-main-sri-vinay-as-projects.vercel.app",
                 "https://portfolio-sepia-chi-dtcekufo5d.vercel.app",
