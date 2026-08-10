@@ -45,7 +45,20 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
+// Configures native arguments for ./gradlew nativeCompile
+graalvmNative {
+	binaries {
+		main {
+			buildArgs.add('--enable-native-access=ALL-UNNAMED')
+		}
+	}
+}
+
+// Configures native arguments for ./gradlew bootBuildImage (Paketo Buildpacks)
 bootBuildImage {
 	imageName = "${project.findProperty('imageName')}"
 	imagePlatform = "linux/amd64"
+	environment = [
+			'BP_NATIVE_IMAGE_BUILD_ARGUMENTS': '--enable-native-access=ALL-UNNAMED'
+	]
 }
